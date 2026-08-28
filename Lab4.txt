@@ -1,0 +1,32 @@
+[ec2-user@ip-10-0-1-100 environment]$ aws configure --mary
+
+Unknown options: --mary
+[ec2-user@ip-10-0-1-100 environment]$ aws configure --profile mary
+AWS Access Key ID [None]: AKIA26SM335OQ6QU76H2
+AWS Secret Access Key [None]: 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
+Default region name [None]: us-east-1
+Default output format [None]: json
+[ec2-user@ip-10-0-1-100 environment]$ aws cloudformation validate-template --template-body file://athenaquery.cf.yml
+
+An error occurred (AccessDenied) when calling the ValidateTemplate operation: User: arn:aws:sts::752854228829:assumed-role/c218550a5515334l16230840t1w75285-VSCodeInstanceRole-czZ5dNzzumsW/i-0555e6fb821d21d0d is not authorized to perform: cloudformation:ValidateTemplate because no identity-based policy allows the cloudformation:ValidateTemplate action
+[ec2-user@ip-10-0-1-100 environment]$ aws cloudformation validate-template --template-body file://athenaquery.cf.yml
+
+An error occurred (AccessDenied) when calling the ValidateTemplate operation: User: arn:aws:sts::752854228829:assumed-role/c218550a5515334l16230840t1w75285-VSCodeInstanceRole-czZ5dNzzumsW/i-0555e6fb821d21d0d is not authorized to perform: cloudformation:ValidateTemplate because no identity-based policy allows the cloudformation:ValidateTemplate action
+[ec2-user@ip-10-0-1-100 environment]$ --profile mary
+bash: --profile: command not found
+[ec2-user@ip-10-0-1-100 environment]$ aws login --profile mary
+
+Profile 'mary' is already configured with Access Key credentials.
+
+You may run 'aws login --profile new-profile-name' to create a new profile with the specified name. Otherwise you must first manually remove the existing credentials from 'mary'.
+
+[ec2-user@ip-10-0-1-100 environment]$ Profile 'mary' is already configured with Access Key credentials.
+bash: Profile: command not found
+[ec2-user@ip-10-0-1-100 environment]$ 
+[ec2-user@ip-10-0-1-100 environment]$ Profile 'mary' is already configured with Access Key credentials.
+bash: Profile: command not found
+[ec2-user@ip-10-0-1-100 environment]$ aws cloudformation validate-template --template-body file://athenaquery.cf.yml --profile mary
+{
+    "Parameters": []
+}
+[ec2-user@ip-10-0-1-100 environment]$ 
