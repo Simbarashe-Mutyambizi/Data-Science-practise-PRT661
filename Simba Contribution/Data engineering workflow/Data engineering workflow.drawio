@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="_zte4qRQFPjymNYlQGFB">
+    <mxGraphModel dx="1633" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-1" parent="1" style="shape=datastore;whiteSpace=wrap;html=1;" value="DATA SOURCE: Github Repository" vertex="1">
+          <mxGeometry height="105" width="160" x="730" y="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-2" parent="1" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="120" width="230" x="50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DATA SOURCE:&lt;span lang=&quot;EN-US&quot; class=&quot;TextRun SCXW258065216 BCX0&quot; style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; text-align: justify; white-space: pre-wrap; background-color: rgb(255, 255, 255); font-size: 10pt; line-height: 18.6px; font-family: &amp;quot;Times New Roman&amp;quot;, &amp;quot;Times New Roman_EmbeddedFont&amp;quot;, &amp;quot;Times New Roman_MSFontService&amp;quot;, serif; font-variant-ligatures: none !important;&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW258065216 BCX0&quot; style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text;&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;a class=&quot;Hyperlink SCXW258065216 BCX0&quot; href=&quot;https://www.aihw.gov.au/reports/cald-australians/chronic-conditions-cald-2021/data&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-family: &amp;quot;Segoe UI&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, Arial, Verdana, sans-serif; text-align: justify; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration: none;&quot;&gt;&lt;span lang=&quot;EN-US&quot; class=&quot;TextRun Underlined SCXW258065216 BCX0&quot; style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; font-variant-ligatures: none !important; color: rgb(70, 120, 134); font-size: 10pt; text-decoration: underline; line-height: 18.6px; font-family: &amp;quot;Times New Roman&amp;quot;, &amp;quot;Times New Roman_EmbeddedFont&amp;quot;, &amp;quot;Times New Roman_MSFontService&amp;quot;, serif;&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW258065216 BCX0&quot; style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text;&quot;&gt;Australian Institute of Health and Welfare&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span lang=&quot;EN-US&quot; class=&quot;TextRun SCXW258065216 BCX0&quot; style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text; text-align: justify; white-space: pre-wrap; background-color: rgb(255, 255, 255); font-size: 10pt; line-height: 18.6px; font-family: &amp;quot;Times New Roman&amp;quot;, &amp;quot;Times New Roman_EmbeddedFont&amp;quot;, &amp;quot;Times New Roman_MSFontService&amp;quot;, serif; font-variant-ligatures: none !important;&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW258065216 BCX0&quot; style=&quot;-webkit-user-drag: none; -webkit-tap-highlight-color: transparent; margin: 0px; padding: 0px; user-select: text;&quot;&gt; (AIHW) 2021 Census data&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-4" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="160" x="320" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="EXTRACT DATA BY DOWLOADING" vertex="1">
+          <mxGeometry height="30" width="120" x="330" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-6" parent="1" style="shape=singleArrow;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="70" width="100" x="590" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="LOAD RAW DATA USING GITHUB UPLOAD FUNCTION" vertex="1">
+          <mxGeometry height="45" width="130" x="550" y="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="RAW DATA" vertex="1">
+          <mxGeometry height="30" width="70" x="490" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=4;edgeStyle=orthogonalEdgeStyle;" target="s6Ln5fVmB5a1LGVt-rfE-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="265" />
+              <mxPoint x="970" y="105" />
+            </Array>
+            <mxPoint x="890" y="265" as="sourcePoint" />
+            <mxPoint x="860" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TRANSFORM THE DATA USING PANDAS" vertex="1">
+          <mxGeometry height="30" width="100" x="730" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-14" parent="1" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="760" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="s6Ln5fVmB5a1LGVt-rfE-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DATA ENGINEERING WORKFLOW FOR LTHC DATA SCIENCE PROJECT IMPLEMENTING ETL (EXTRACT, LOAD AND TRANSFROM)&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="570" x="120" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
