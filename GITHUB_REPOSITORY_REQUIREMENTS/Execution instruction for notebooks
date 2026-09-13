@@ -1,0 +1,7 @@
+Execution instructions:
+
+Please download the notebooks of choice and the cleaned data set (cleaned_data_final.csv) into a single path and replace the path mention in the lines
+of code that mention df=pd.Dataframe(........cleaned_data_final.csv), with the path were the data is currently located on your host computer.
+
+If you donwload the LTHC analysis notebook, you can run it on Kaggle or if you choose to run it on your local computer, please delete the first cell
+which refers to Kaggle information and perform steps mentioned above and run the notebook
