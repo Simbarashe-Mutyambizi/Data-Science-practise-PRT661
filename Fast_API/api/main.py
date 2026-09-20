@@ -20,7 +20,7 @@ app = FastAPI(
 # --------------------------------------------------
 
 preprocessor = joblib.load("../models/lthc_preprocessor.pkl")
-model = joblib.load("../models/lthc_final_model.pkl")
+model = joblib.load("../models/xgboost_regression_model.pkl")
 
 
 # --------------------------------------------------
