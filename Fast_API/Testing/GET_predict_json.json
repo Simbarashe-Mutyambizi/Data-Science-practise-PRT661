@@ -1,0 +1,6 @@
+{
+  "predicted_prevalence": 10.68,
+  "unit": "percent",
+  "interpretation": "Estimated population-level prevalence",
+  "warning": "This is a population-level estimate and is not an individual diagnosis or personal disease-risk prediction."
+}
