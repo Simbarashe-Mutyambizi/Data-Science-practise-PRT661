@@ -1,0 +1,13 @@
+# Inference API service (FastAPI). Tested with Python 3.11.
+# scikit-learn must stay at 1.8.0: the preprocessor was pickled with that version.
+fastapi==0.141.1
+uvicorn==0.46.0
+pydantic==2.13.3
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+# CPU-only build on Linux/Windows (avoids ~250 MB of CUDA libraries); macOS has no xgboost-cpu wheel
+xgboost-cpu==3.2.0; sys_platform != "darwin"
+xgboost==3.2.0; sys_platform == "darwin"
+joblib==1.5.3

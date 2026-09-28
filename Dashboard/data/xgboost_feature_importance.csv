@@ -1,0 +1,403 @@
+Feature,Importance
+categorical__Long-term health condition (LTHC)_One or more long-term health condition(s),0.27475142
+categorical__Age group_65 and over,0.2527338
+categorical__Long-term health condition (LTHC)_Arthritis,0.029431794
+categorical__Age group_00–44,0.019504672
+categorical__Long-term health condition (LTHC)_Heart disease or stroke,0.017490678
+categorical__Long-term health condition (LTHC)_Diabetes,0.01743126
+categorical__Subregion_class_Southern Asia,0.015664436
+categorical__Language used at home_Auslan,0.01390634
+"categorical__Language used at home_Sign Languages, nfd",0.012925788
+categorical__Long-term health condition (LTHC)_Stroke,0.011802673
+categorical__Long-term health condition (LTHC)_Any other long-term health condition(s),0.011055675
+"categorical__Country of birth of person_Americas, nfd",0.00979344
+categorical__Years spent in Australia_0–10 years,0.008946252
+categorical__Long-term health condition (LTHC)_Heart disease,0.00876719
+categorical__Long-term health condition (LTHC)_Lung condition,0.008713033
+categorical__Region_class_North-East Asia,0.008568043
+categorical__Subregion_class_South Eastern Europe,0.0075652828
+categorical__Subregion_class_Polynesia,0.0073999623
+categorical__Long-term health condition (LTHC)_Kidney disease,0.007370154
+categorical__Long-term health condition (LTHC)_Dementia,0.0073693637
+categorical__Region_class_Oceania and Antarctica,0.006717933
+categorical__Region_class_Southern and Central Asia,0.006341761
+categorical__Region_class_North-West Europe,0.0063226204
+categorical__Region_class_North Africa and the Middle East,0.006206485
+categorical__Region_class_Southern and Eastern Europe,0.006039301
+categorical__Region_class_South-East Asia,0.005674929
+categorical__Subregion_class_Eastern Europe,0.004501667
+categorical__Country of birth of person_Iraq,0.0044743717
+"categorical__Country of birth of person_Oceania and Antarctica, nfd",0.0041463943
+categorical__Subregion_class_Middle East,0.004035361
+categorical__Country of birth of person_India,0.0040162914
+categorical__Region_class_Sub-Saharan Africa,0.00393564
+categorical__Region_class_Americas,0.003885974
+categorical__Subregion_class_United Kingdom,0.003650908
+categorical__Language used at home_Pashto,0.003604043
+categorical__Language used at home_Arabic,0.0035616127
+categorical__Subregion_class_Mainland South-East Asia,0.0033785512
+categorical__Country of birth of person_Nepal,0.003243042
+categorical__Long-term health condition (LTHC)_Mental health condition,0.0032082186
+categorical__Proficiency in spoken English_Not well or Not at all,0.0031672614
+categorical__Country of birth of person_Malta,0.0030641167
+categorical__Years spent in Australia_More than 10 years,0.0029655593
+categorical__Country of birth of person_Afghanistan,0.0027729638
+categorical__Language used at home_Gujarati,0.002753809
+categorical__Country of birth of person_Philippines,0.0026835066
+categorical__Long-term health condition (LTHC)_Asthma,0.002677266
+categorical__Language used at home_Punjabi,0.0025209915
+categorical__Country of birth of person_Egypt,0.002457946
+categorical__Country of birth of person_Thailand,0.0024106198
+categorical__Country of birth of person_Myanmar,0.0023658583
+categorical__Subregion_class_Western Europe,0.0023620352
+categorical__Country of birth of person_Nicaragua,0.0023552715
+categorical__Country of birth of person_Bangladesh,0.0023518868
+categorical__Country of birth of person_Pitcairn Islands,0.002350964
+categorical__Subregion_class_South America,0.002310396
+categorical__Subregion_class_Japan and the Koreas,0.0023052152
+categorical__Sex_Female,0.0022718061
+categorical__Subregion_class_Northern America,0.0022613972
+categorical__Country of birth of person_Eritrea,0.0022527622
+categorical__Country of birth of person_Tanzania,0.0021321063
+categorical__Language used at home_Chaldean Neo-Aramaic,0.0020936555
+categorical__Country of birth of person_Bhutan,0.002082339
+"categorical__Language used at home_Chinese, nfd",0.0019911039
+"categorical__Country of birth of person_Eastern Europe, nfd",0.0019658324
+categorical__Country of birth of person_Turkey,0.0019525974
+categorical__Country of birth of person_Singapore,0.0019363618
+categorical__Country of birth of person_Switzerland,0.0019165965
+categorical__Language used at home_Kurdish,0.0019128183
+categorical__Country of birth of person_Israel,0.0018697631
+categorical__Country of birth of person_Latvia,0.0018649168
+categorical__Country of birth of person_Indonesia,0.0018587151
+categorical__Country of birth of person_France,0.0018387876
+categorical__Country of birth of person_Netherlands,0.0017665456
+categorical__Country of birth of person_Iran,0.001754965
+categorical__Subregion_class_Central America,0.0017476007
+categorical__Country of birth of person_Mauritius,0.001738174
+categorical__Subregion_class_Southern Europe,0.0017230852
+categorical__Country of birth of person_Syria,0.0016675688
+categorical__Country of birth of person_Paraguay,0.0016356916
+categorical__Country of birth of person_Finland,0.001627607
+categorical__Country of birth of person_Wales,0.0016191277
+"categorical__Language used at home_Pidgin, nfd",0.0015567916
+categorical__Language used at home_Portuguese,0.001549438
+categorical__Language used at home_Russian,0.0015354117
+categorical__Country of birth of person_Laos,0.001483521
+categorical__Country of birth of person_Uruguay,0.0014586232
+categorical__Sex_Male,0.0014534576
+categorical__Country of birth of person_Bermuda,0.001436321
+categorical__Country of birth of person_South Sudan,0.0014080617
+categorical__Language used at home_Tigre,0.0014065787
+categorical__Language used at home_Hazaraghi,0.001391333
+categorical__Long-term health condition (LTHC)_Cancer,0.0013867663
+categorical__Country of birth of person_Vanuatu,0.0013303107
+categorical__Country of birth of person_Samoa,0.0012974247
+categorical__Country of birth of person_Seychelles,0.0012956383
+categorical__Country of birth of person_Bulgaria,0.0012938662
+categorical__Language used at home_Chin Haka,0.0012772223
+categorical__Language used at home_Burmese,0.0012503507
+categorical__Country of birth of person_Taiwan,0.001250205
+categorical__Country of birth of person_Bosnia and Herzegovina,0.001235973
+categorical__Country of birth of person_Lithuania,0.0011688144
+categorical__Subregion_class_Chinese Asia,0.0011653496
+categorical__Country of birth of person_Colombia,0.001155653
+categorical__Country of birth of person_Holy See,0.0011320721
+categorical__Language used at home_Afrikaans,0.0011285972
+"categorical__Language used at home_Serbo-Croatian/Yugoslavian, so described",0.0011194425
+categorical__Country of birth of person_New Zealand,0.0011113702
+categorical__Country of birth of person_Peru,0.0011070706
+categorical__Country of birth of person_Sri Lanka,0.0010690902
+"categorical__Language used at home_Southeast Asian Austronesian Languages, nfd",0.001054384
+categorical__Subregion_class_Central and West Africa,0.0010535597
+categorical__Country of birth of person_Morocco,0.0010496791
+categorical__Country of birth of person_Albania,0.001048896
+categorical__Language used at home_Hindi,0.0010254317
+categorical__Country of birth of person_Mexico,0.0010103594
+categorical__Country of birth of person_Chile,0.0009840032
+"categorical__Country of birth of person_South Eastern Europe, nfd",0.00097101013
+categorical__Country of birth of person_United Arab Emirates,0.00096845644
+categorical__Country of birth of person_Slovenia,0.000958177
+categorical__Subregion_class_Central Asia,0.0009562918
+categorical__Language used at home_Wu,0.0009490738
+categorical__Country of birth of person_Ireland,0.0009353855
+categorical__Country of birth of person_Moldova,0.0009259296
+"categorical__Language used at home_Burmese and Related Languages, nfd",0.00088271935
+categorical__Country of birth of person_North Macedonia,0.0008702759
+categorical__Country of birth of person_Slovakia,0.00086859823
+categorical__Country of birth of person_Tokelau,0.0008648929
+categorical__Language used at home_Telugu,0.00085300877
+categorical__Country of birth of person_Iceland,0.0008385921
+categorical__Country of birth of person_Czechia,0.0008374648
+categorical__Language used at home_Tamil,0.00073055836
+categorical__Country of birth of person_Pakistan,0.00069524674
+categorical__Language used at home_Cantonese,0.00068110006
+categorical__Language used at home_Mandarin,0.0006388722
+"categorical__Language used at home_Non-verbal, so described",0.00063394546
+categorical__Country of birth of person_China (excludes SARs and Taiwan),0.00061690016
+categorical__Language used at home_Hakka,0.0006039551
+categorical__Country of birth of person_Armenia,0.0005774503
+categorical__Language used at home_Tigrinya,0.00054963573
+categorical__Country of birth of person_Lebanon,0.00054657337
+categorical__Country of birth of person_Algeria,0.00053324073
+categorical__Language used at home_.ATSI lang,0.0005258244
+categorical__Proficiency in spoken English_Very well or well,0.0005138569
+"categorical__Country of birth of person_United Kingdom, Channel Islands and Isle of Ma",0.0004823458
+categorical__Country of birth of person_Japan,0.000465806
+categorical__Sex_Persons,0.00044989376
+categorical__Country of birth of person_Hungary,0.00044440146
+categorical__Country of birth of person_Portugal,0.000400168
+categorical__Country of birth of person_Italy,0.0003740315
+categorical__Years spent in Australia_Not specified,0.0003690408
+categorical__Language used at home_Assyrian Neo-Aramaic,0.0003386605
+categorical__Country of birth of person_South Africa,0.000288383
+categorical__Country of birth of person_Venezuela,0.0002800639
+categorical__Age group_45–64,0.0002678371
+categorical__Language used at home_Spanish,0.00026071043
+categorical__Language used at home_Karen,0.0002003228
+categorical__Country of birth of person_Brazil,0.00017532437
+categorical__Country of birth of person_Kuwait,0.00017438606
+categorical__Subregion_class_Northern Europe,0.00014325291
+categorical__Country of birth of person_Nigeria,0.0001242636
+categorical__Country of birth of person_Honduras,0.000110123365
+categorical__Country of birth of person_Bahrain,0.000109598725
+categorical__Country of birth of person_Mozambique,0.00010077538
+categorical__Language used at home_Pampangan,8.34518e-05
+categorical__Country of birth of person_Cambodia,7.245086e-05
+categorical__Country of birth of person_Hong Kong (SAR of China),7.124737e-05
+categorical__Language used at home_French,5.9721497e-05
+categorical__Country of birth of person_Saudi Arabia,5.693784e-05
+categorical__Country of birth of person_Guernsey,4.7947244e-05
+categorical__Country of birth of person_Denmark,4.7725374e-05
+categorical__Country of birth of person_Germany,4.621067e-05
+categorical__Country of birth of person_Macau (SAR of China),3.600016e-05
+categorical__Country of birth of person_Libya,3.261712e-05
+categorical__Language used at home_Tagalog,3.1987438e-05
+categorical__Country of birth of person_Vietnam,3.08124e-05
+categorical__Language used at home_Fijian Hindustani,2.568655e-05
+categorical__Country of birth of person_Fiji,2.4392266e-05
+categorical__Country of birth of person_Jordan,2.1113054e-05
+categorical__Language used at home_Uygur,1.3968886e-05
+categorical__Country of birth of person_Tonga,1.1578946e-05
+categorical__Country of birth of person_Cook Islands,5.243146e-06
+categorical__Language used at home_Fijian,4.9701234e-06
+categorical__Country of birth of person_Sierra Leone,3.7164025e-06
+categorical__Country of birth of person_Austria,3.5480932e-06
+categorical__Country of birth of person_Ghana,3.3161855e-06
+categorical__Country of birth of person_Scotland,2.5089855e-06
+"categorical__Country of birth of person_Korea, Republic of (South)",1.3477603e-06
+categorical__Country of birth of person_Uganda,0.0
+categorical__Country of birth of person_Trinidad and Tobago,0.0
+categorical__Country of birth of person_Tuvalu,0.0
+categorical__Country of birth of person_Zambia,0.0
+categorical__Country of birth of person_Zimbabwe,0.0
+categorical__Country of birth of person_Norway,0.0
+categorical__Country of birth of person_Serbia,0.0
+categorical__Country of birth of person_Papua New Guinea,0.0
+categorical__Country of birth of person_Poland,0.0
+categorical__Country of birth of person_Russian Federation,0.0
+categorical__Country of birth of person_Timor-Leste,0.0
+categorical__Country of birth of person_Somalia,0.0
+"categorical__Country of birth of person_Southern Asia, nfd",0.0
+categorical__Country of birth of person_Spain,0.0
+categorical__Country of birth of person_Ukraine,0.0
+"categorical__Country of birth of person_Sub-Saharan Africa, nfd",0.0
+categorical__Country of birth of person_Sudan,0.0
+categorical__Country of birth of person_United States of America,0.0
+categorical__Country of birth of person_Uzbekistan,0.0
+categorical__Country of birth of person_Belgium,0.0
+categorical__Country of birth of person_Bolivia,0.0
+categorical__Country of birth of person_Sweden,0.0
+categorical__Country of birth of person_Argentina,0.0
+categorical__Language used at home_Balochi,0.0
+categorical__Language used at home_Azeri,0.0
+categorical__Language used at home_Armenian,0.0
+categorical__Language used at home_Amharic,0.0
+categorical__Language used at home_American Languages,0.0
+categorical__Language used at home_Belorussian,0.0
+categorical__Language used at home_Bisaya,0.0
+categorical__Language used at home_Bassa,0.0
+"categorical__Language used at home_Burmese and Related Languages, nec",0.0
+categorical__Language used at home_Cebuano,0.0
+"categorical__Language used at home_Celtic, nfd",0.0
+categorical__Country of birth of person_Montenegro,0.0
+categorical__Country of birth of person_Namibia,0.0
+categorical__Language used at home_Bislama,0.0
+categorical__Language used at home_Bemba,0.0
+categorical__Language used at home_Bengali,0.0
+categorical__Country of birth of person_Niue,0.0
+categorical__Country of birth of person_New Caledonia,0.0
+categorical__Country of birth of person_Nauru,0.0
+categorical__Country of birth of person_Northern Ireland,0.0
+categorical__Language used at home_Czech,0.0
+"categorical__Language used at home_Creole, nfd",0.0
+categorical__Language used at home_Croatian,0.0
+"categorical__Language used at home_Cypriot, so described",0.0
+categorical__Language used at home_Dhivehi,0.0
+categorical__Language used at home_Dari,0.0
+categorical__Language used at home_Danish,0.0
+categorical__Language used at home_Dinka,0.0
+categorical__Language used at home_Estonian,0.0
+categorical__Language used at home_Dutch,0.0
+categorical__Language used at home_Bosnian,0.0
+categorical__Language used at home_Bulgarian,0.0
+categorical__Language used at home_Finnish,0.0
+categorical__Language used at home_Filipino,0.0
+"categorical__Language used at home_French Creole, nfd",0.0
+categorical__Language used at home_Gaelic (Scotland),0.0
+categorical__Language used at home_Gilbertese,0.0
+categorical__Language used at home_Greek,0.0
+categorical__Language used at home_Georgian,0.0
+categorical__Language used at home_German,0.0
+categorical__Language used at home_Hungarian,0.0
+categorical__Language used at home_IIokano,0.0
+"categorical__Language used at home_Iberian Romance, nfd",0.0
+categorical__Language used at home_Icelandic,0.0
+categorical__Language used at home_Igbo,0.0
+categorical__Language used at home_Ilonggo (Hiligaynon),0.0
+categorical__Language used at home_Hebrew,0.0
+categorical__Language used at home_Hmong,0.0
+"categorical__Language used at home_Indo-Aryan, nfd",0.0
+"categorical__Language used at home_Indo-Aryan, nec",0.0
+categorical__Language used at home_Indonesian,0.0
+categorical__Country of birth of person_Romania,0.0
+categorical__Country of birth of person_Rwanda,0.0
+"categorical__Country of birth of person_Samoa, American",0.0
+categorical__Language used at home_Acholi,0.0
+"categorical__Language used at home_African Languages, nec",0.0
+"categorical__Language used at home_African Languages, nfd",0.0
+categorical__Language used at home_Akan,0.0
+categorical__Language used at home_Albanian,0.0
+categorical__Subregion_class_Sub-Saharan Africa (nfd),0.0
+categorical__Country of birth of person_Bahamas,0.0
+categorical__Country of birth of person_Barbados,0.0
+categorical__Country of birth of person_Belarus,0.0
+categorical__Country of birth of person_Azerbaijan,0.0
+categorical__Country of birth of person_Maldives,0.0
+categorical__Country of birth of person_Malaysia,0.0
+categorical__Country of birth of person_Malawi,0.0
+categorical__Country of birth of person_Liberia,0.0
+categorical__Language used at home_Kikuyu,0.0
+categorical__Language used at home_Kinyarwanda (Rwanda),0.0
+categorical__Language used at home_Kashmiri,0.0
+categorical__Language used at home_Khmer,0.0
+categorical__Language used at home_Italian,0.0
+categorical__Language used at home_Irish,0.0
+categorical__Language used at home_Kannada,0.0
+categorical__Language used at home_Japanese,0.0
+"categorical__Language used at home_Iranic, nfd",0.0
+"categorical__Country of birth of person_Maritime South-East Asia, nfd",0.0
+categorical__Language used at home_Kirundi (Rundi),0.0
+"categorical__Country of birth of person_Middle East, nfd",0.0
+categorical__Language used at home_Maori (Cook Island),0.0
+categorical__Language used at home_Maori (New Zealand),0.0
+categorical__Language used at home_Marathi,0.0
+categorical__Language used at home_Mauritian Creole,0.0
+categorical__Language used at home_Min Nan,0.0
+categorical__Language used at home_Moro (Nuba Moro),0.0
+categorical__Language used at home_Motu (HiriMotu),0.0
+categorical__Language used at home_Konkani,0.0
+categorical__Language used at home_Latvian,0.0
+categorical__Language used at home_Lingala,0.0
+categorical__Language used at home_Lithuanian,0.0
+categorical__Language used at home_Luganda,0.0
+categorical__Language used at home_Korean,0.0
+categorical__Language used at home_Krio,0.0
+categorical__Language used at home_Lao,0.0
+categorical__Language used at home_Latin,0.0
+categorical__Language used at home_Oromo,0.0
+categorical__Language used at home_Oriya,0.0
+categorical__Language used at home_Nyanja (Chichewa),0.0
+categorical__Language used at home_Norwegian,0.0
+categorical__Language used at home_Rohingya,0.0
+categorical__Language used at home_Romanian,0.0
+categorical__Language used at home_Persian (excluding Dari),0.0
+"categorical__Language used at home_Papua New Guinea Languages, nfd",0.0
+categorical__Language used at home_Samoan,0.0
+categorical__Language used at home_Serbian,0.0
+categorical__Country of birth of person_Jamaica,0.0
+categorical__Country of birth of person_Isle of Man,0.0
+categorical__Country of birth of person_Jersey,0.0
+categorical__Country of birth of person_Kazakhstan,0.0
+categorical__Language used at home_Rotuman,0.0
+categorical__Language used at home_Polish,0.0
+categorical__Country of birth of person_Kiribati,0.0
+categorical__Country of birth of person_Kenya,0.0
+categorical__Language used at home_Seychelles Creole,0.0
+categorical__Country of birth of person_Kosovo,0.0
+categorical__Language used at home_Sindhi,0.0
+categorical__Language used at home_Sinhalese,0.0
+categorical__Language used at home_Slovak,0.0
+categorical__Language used at home_Nauruan,0.0
+categorical__Language used at home_Nepali,0.0
+categorical__Language used at home_Niue,0.0
+categorical__Language used at home_Norf'k-Pitcairn,0.0
+"categorical__Language used at home_Northern European Languages, nfd",0.0
+categorical__Language used at home_Macedonian,0.0
+categorical__Language used at home_Malay,0.0
+categorical__Language used at home_Malayalam,0.0
+categorical__Language used at home_Maltese,0.0
+"categorical__Language used at home_Swiss, so described",0.0
+categorical__Language used at home_Swedish,0.0
+categorical__Language used at home_Swahili,0.0
+"categorical__Language used at home_Southern Asian Languages, nfd",0.0
+"categorical__Language used at home_South Slavic, nfd",0.0
+"categorical__Language used at home_Southeast Asian Austronesian Languages, nec",0.0
+categorical__Language used at home_Somali,0.0
+categorical__Language used at home_Slovene,0.0
+categorical__Language used at home_Shona,0.0
+categorical__Language used at home_Tswana,0.0
+categorical__Language used at home_Tuvaluan,0.0
+categorical__Language used at home_Tulu,0.0
+categorical__Language used at home_Tok Pisin (Neomelanesian),0.0
+categorical__Language used at home_Tetum,0.0
+categorical__Language used at home_Tibetan,0.0
+categorical__Language used at home_Thai,0.0
+categorical__Language used at home_Vietnamese,0.0
+categorical__Language used at home_Uzbek,0.0
+categorical__Language used at home_Urdu,0.0
+categorical__Language used at home_Welsh,0.0
+categorical__Language used at home_Zulu,0.0
+categorical__Language used at home_Yiddish,0.0
+categorical__Language used at home_Yoruba,0.0
+categorical__Language used at home_Zomi,0.0
+categorical__Country of birth of person_Georgia,0.0
+categorical__Country of birth of person_Gaza Strip and West Bank,0.0
+categorical__Proficiency in spoken English_Not specified,0.0
+categorical__Language used at home_Turkish,0.0
+categorical__Language used at home_Ukrainian,0.0
+categorical__Language used at home_Tokelauan,0.0
+categorical__Language used at home_Tongan,0.0
+categorical__Language used at home_Timorese,0.0
+categorical__Country of birth of person_Haiti,0.0
+categorical__Country of birth of person_Guyana,0.0
+categorical__Country of birth of person_Guatemala,0.0
+categorical__Country of birth of person_Greece,0.0
+categorical__Country of birth of person_Gibraltar,0.0
+categorical__Country of birth of person_England,0.0
+categorical__Country of birth of person_El Salvador,0.0
+categorical__Country of birth of person_Cyprus,0.0
+categorical__Country of birth of person_Eswatini,0.0
+categorical__Country of birth of person_Ethiopia,0.0
+categorical__Country of birth of person_French Polynesia,0.0
+categorical__Subregion_class_Americas (nfd),0.0
+categorical__Subregion_class_Caribbean,0.0
+categorical__Subregion_class_Ireland,0.0
+categorical__Country of birth of person_Estonia,0.0
+categorical__Country of birth of person_Ecuador,0.0
+categorical__Country of birth of person_Brunei Darussalam,0.0
+categorical__Country of birth of person_Botswana,0.0
+categorical__Country of birth of person_Canada,0.0
+categorical__Country of birth of person_Burundi,0.0
+"categorical__Country of birth of person_Caribbean, nfd",0.0
+"categorical__Country of birth of person_Congo, Democratic Republic of",0.0
+"categorical__Country of birth of person_Congo, Republic of",0.0
+categorical__Country of birth of person_Croatia,0.0
+categorical__Country of birth of person_Cuba,0.0
+categorical__Subregion_class_Maritime South-East Asia,0.0
+categorical__Subregion_class_Melanesia,0.0
+categorical__Subregion_class_Micronesia,0.0
+categorical__Subregion_class_New Zealand,0.0
+categorical__Subregion_class_North Africa,0.0
+categorical__Subregion_class_Oceania (nfd),0.0
+categorical__Subregion_class_Southern and East Africa,0.0
