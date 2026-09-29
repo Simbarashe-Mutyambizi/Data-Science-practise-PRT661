@@ -2,3 +2,18 @@ cd C:\Personal\Masters\Masters_work\Study\Y2_S1\PRT661\Project\Data-Science-prac
 python -m uvicorn main:app --reload
 http://127.0.0.1:8000/ 
 http://127.0.0.1:8000/docs
+
+Test Data to enter into the FastAPI
+
+{
+  "country_of_birth": "Australia",
+  "years_in_australia": "5-10 years",
+  "age_group": "45-54",
+  "sex": "Male",
+  "lthc": "Arthritis",
+  "language": "English",
+  "english_proficiency": "Very well",
+  "region": "Metro",
+  "subregion": "Darwin"
+}
+
