@@ -1,0 +1,4 @@
+cd C:\Personal\Masters\Masters_work\Study\Y2_S1\PRT661\Project\Data-Science-practise-PRT661\Fast_API\api
+python -m uvicorn main:app --reload
+http://127.0.0.1:8000/ 
+http://127.0.0.1:8000/docs
