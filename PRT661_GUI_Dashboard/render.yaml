@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: lthc-api
+    runtime: python
+    plan: free
+    branch: GUI
+    rootDir: Dashboard
+    buildCommand: pip install -r api/requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+
+  - type: web
+    name: lthc-dashboard
+    runtime: python
+    plan: free
+    branch: GUI
+    rootDir: Dashboard
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120
+    healthCheckPath: /healthz
+    envVars:
+      - key: LTHC_API_URL
+        sync: false
