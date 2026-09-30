@@ -25,7 +25,7 @@ setup(
       version='0.0.1',
       author='Danala group 3 theme 2',
       author_email='simbarashewilliammutyambizi@gmail.com',
-      install_requires=get_requirements('requirement.txt')
+      install_requires=get_requirements('requirements.txt')
   
       
       
