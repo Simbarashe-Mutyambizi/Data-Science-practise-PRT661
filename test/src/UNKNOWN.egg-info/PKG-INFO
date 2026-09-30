@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: UNKNOWN
+Version: 0.0.1
+Author: Danala group 3 theme 2
+Author-email: simbarashewilliammutyambizi@gmail.com
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: plotly
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: joblib
+Requires-Dist: xgboost
+Requires-Dist: dill
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: dash
+Requires-Dist: dash-bootstrap-components
+Requires-Dist: chardet
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

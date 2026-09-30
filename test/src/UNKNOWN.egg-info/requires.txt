@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+scipy
+scikit-learn
+joblib
+xgboost
+dill
+fastapi
+uvicorn
+dash
+dash-bootstrap-components
+chardet

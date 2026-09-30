@@ -1,0 +1,10 @@
+[2026-09-26 16:58:05,064] 31 root -INFO -Beginning the data ingestion stage
+[2026-09-26 16:58:06,111] 35 root -INFO -Dataset ready as dataframe
+[2026-09-26 16:58:21,395] 78 root -INFO -Train test split initiated
+[2026-09-26 16:58:24,832] 108 root -INFO -Preprocessing complete
+[2026-09-26 17:00:31,752] 122 root -INFO -Ingestion of the data is completed successfully
+[2026-09-26 17:00:31,893] 13 root -INFO -Instantiating training and test dataframes in data transformation.py
+[2026-09-26 17:01:07,113] 21 root -INFO -Loading done
+[2026-09-26 17:01:09,410] 31 root -INFO -Loading train and test data for best model
+[2026-09-26 17:02:10,260] 51 root -INFO -XGBoost training complete.
+[2026-09-26 17:02:10,260] 53 root -INFO -Instantiating testing

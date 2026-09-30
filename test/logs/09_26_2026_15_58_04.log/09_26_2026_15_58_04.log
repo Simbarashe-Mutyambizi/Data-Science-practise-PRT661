@@ -1,0 +1,5 @@
+[2026-09-26 15:58:08,890] 29 root -INFO -Beginning the data ingestion stage
+[2026-09-26 15:58:09,921] 33 root -INFO -Dataset ready as dataframe
+[2026-09-26 15:58:25,039] 76 root -INFO -Train test split initiated
+[2026-09-26 15:58:30,838] 106 root -INFO -Preprocessing complete
+[2026-09-26 16:00:42,414] 120 root -INFO -Ingestion of the data is completed successfully
