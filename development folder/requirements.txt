@@ -12,7 +12,6 @@ fastapi
 uvicorn
 dash 
 dash-bootstrap-components
-json
 request
 chardet
 gunicorn
