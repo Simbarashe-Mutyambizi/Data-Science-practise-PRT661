@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor
 # =========================================================
 # 1. LOAD DATA & UTILITIES
 # =========================================================
-file_path = "development folder/Cleaned_data_final.csv"
+file_path = "Cleaned_data_final.csv"
 FAST_API_URL = "https://data-science-practise-prt661-api.onrender.com"
 
 # FAST API INFERENCE SECTION
@@ -30,9 +30,6 @@ API_FIELD_MAP = {
     "sub_region": "subregion",
     "lthc": "lthc",
 }
-
-
-file_path = Path(__file__).parent / "development folder" / "Cleaned_data_final.csv"
 
 try:
     raw_df = pd.read_csv(file_path)
