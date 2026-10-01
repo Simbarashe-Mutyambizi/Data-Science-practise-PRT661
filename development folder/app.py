@@ -6,6 +6,7 @@ from dash import Input, Output, State, dcc, html
 from dash import dash_table
 import json
 import requests
+from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 # =========================================================
 # 1. LOAD DATA & UTILITIES
@@ -29,37 +30,15 @@ API_FIELD_MAP = {
     "sub_region": "subregion",
     "lthc": "lthc",
 }
+
+
+file_path = Path(__file__).parent / "development folder" / "Cleaned_data_final.csv"
+
 try:
     raw_df = pd.read_csv(file_path)
     df = raw_df.loc[raw_df["Number of people reporting LTHC(s)"] > 0]
 except Exception as e:
-    print(f"Notice: Loading sample data fallback ({e})")
-    df = pd.DataFrame(
-        {
-            "Sex": ["Male", "Female"] * 20,
-            "Long-term health condition (LTHC)": [
-                "Arthritis",
-                "Asthma",
-                "Diabetes",
-                "Mental health condition",
-                "Heart disease or stroke",
-            ]
-            * 8,
-            "Number of people reporting LTHC(s)": [120, 150, 90, 200] * 10,
-            "Population": [1000, 1100, 950, 1050] * 10,
-            "Age group": ["15-24", "25-34", "35-44", "45-54"] * 10,
-            "Years spent in Australia": [
-                "0-4 years",
-                "5-9 years",
-                "10+ years",
-                "Born in Australia",
-            ]
-            * 10,
-            "Region_class": ["Major Cities", "Inner Regional", "Outer Regional"]
-            * 13
-            + ["Remote"],
-        }
-    )
+    raise RuntimeError(f"Could not load data from {file_path}: {e}")
 
 
 def weight_prevalence(df, col1, col2, num1, num2):
