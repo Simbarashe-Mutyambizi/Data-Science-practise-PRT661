@@ -16,4 +16,4 @@ json
 request
 chardet
 gunicorn
--e .
+
