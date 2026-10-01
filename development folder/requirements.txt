@@ -15,4 +15,4 @@ dash-bootstrap-components
 requests
 chardet
 gunicorn
-
+pathlib
