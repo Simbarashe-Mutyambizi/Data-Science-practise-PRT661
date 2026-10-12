@@ -1,0 +1,7 @@
+[2026-10-10 13:30:15,102] 39 root -INFO -Loading raw data
+[2026-10-10 13:31:31,757] 44 root -INFO -Dtaaframes created
+[2026-10-10 13:31:31,867] 48 root -INFO -Dtaaframes merged into one dataset
+[2026-10-10 13:31:44,608] 682 root -INFO -Null values cleaning complete
+[2026-10-10 13:31:44,796] 1273 root -INFO -Creating sub-region and region columns
+[2026-10-10 13:31:45,952] 1281 root -INFO -Load cleaned data to artifacts
+[2026-10-10 13:31:49,091] 1284 root -INFO -Cleaning completed, moving to transformation

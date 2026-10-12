@@ -1,0 +1,14 @@
+[2026-10-10 14:14:03,471] 1249 matplotlib.font_manager -WARNING -Matplotlib is building the font cache; this may take a moment.
+[2026-10-10 14:14:09,502] 1848 matplotlib.font_manager -INFO -generated new fontManager
+[2026-10-10 14:14:13,348] 39 root -INFO -Loading raw data
+[2026-10-10 14:15:22,294] 44 root -INFO -Dtaaframes created
+[2026-10-10 14:15:22,373] 48 root -INFO -Dtaaframes merged into one dataset
+[2026-10-10 14:15:34,968] 682 root -INFO -Null values cleaning complete
+[2026-10-10 14:15:35,140] 1273 root -INFO -Creating sub-region and region columns
+[2026-10-10 14:15:36,171] 1281 root -INFO -Load cleaned data to artifacts
+[2026-10-10 14:15:38,858] 1284 root -INFO -Cleaning completed, moving to transformation
+[2026-10-10 14:15:38,874] 63 root -INFO -Data transformation started
+[2026-10-10 14:15:39,734] 73 root -INFO -Loaded cleaned data from artifacts\cleaned\Cleaned_data_final.csv, shape (120978, 12)
+[2026-10-10 14:16:45,123] 88 root -INFO -Train test split initiated
+[2026-10-10 14:16:50,357] 113 root -INFO -Preprocessing complete
+[2026-10-10 14:19:50,029] 128 root -INFO -Data transformation completed successfully

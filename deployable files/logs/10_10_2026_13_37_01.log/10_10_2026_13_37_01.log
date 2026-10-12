@@ -1,0 +1,5 @@
+[2026-10-10 13:37:01,296] 58 root -INFO -Data transformation started
+[2026-10-10 13:37:02,218] 68 root -INFO -Loaded cleaned data from artifacts\cleaned\Cleaned_data_final.csv, shape (120978, 12)
+[2026-10-10 13:38:15,136] 83 root -INFO -Train test split initiated
+[2026-10-10 13:38:25,819] 108 root -INFO -Preprocessing complete
+[2026-10-10 13:42:11,193] 120 root -INFO -Data transformation completed successfully

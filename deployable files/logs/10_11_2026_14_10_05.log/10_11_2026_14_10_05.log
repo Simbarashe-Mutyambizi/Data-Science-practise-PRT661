@@ -1,0 +1,16 @@
+[2026-10-11 14:15:14,892] 2588 dash.dash -INFO -Dash is running on http://127.0.0.1:8050/
+
+[2026-10-11 14:15:14,955] 97 werkzeug -INFO -[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+[2026-10-11 14:15:14,955] 97 werkzeug -INFO -[33mPress CTRL+C to quit[0m
+[2026-10-11 14:15:34,895] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:34] "GET /inferences HTTP/1.1" 200 -
+[2026-10-11 14:15:36,000] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:36] "GET /_dash-component-suites/dash/deps/react@18.v4_4_1m1790688941.3.1.min.js HTTP/1.1" 200 -
+[2026-10-11 14:15:37,404] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:37] "GET /_dash-component-suites/dash/deps/prop-types@15.v4_4_1m1790688941.8.1.min.js HTTP/1.1" 200 -
+[2026-10-11 14:15:38,769] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:38] "GET /_dash-component-suites/dash/deps/react-dom@18.v4_4_1m1790688941.3.1.min.js HTTP/1.1" 200 -
+[2026-10-11 14:15:39,383] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:39] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v4_4_1m1790688939.min.js HTTP/1.1" 200 -
+[2026-10-11 14:15:40,500] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:40] "GET /_dash-layout HTTP/1.1" 200 -
+[2026-10-11 14:15:40,516] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:40] "GET /_dash-dependencies HTTP/1.1" 200 -
+[2026-10-11 14:15:41,080] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:41] "POST /_dash-update-component?endId=6TUnN4pL9MJ0rm5cXdo6Xxxb~e923a02fbd85e3eac79d98b2dae8adb820fd8347e2c79e7458bbe55733b7e90c HTTP/1.1" 200 -
+[2026-10-11 14:15:41,127] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:41] "GET /_favicon.ico?v=4.4.1 HTTP/1.1" 200 -
+[2026-10-11 14:15:41,236] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:41] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+[2026-10-11 14:15:41,470] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:15:41] "POST /_dash-update-component?endId=6TUnN4pL9MJ0rm5cXdo6Xxxb~e923a02fbd85e3eac79d98b2dae8adb820fd8347e2c79e7458bbe55733b7e90c HTTP/1.1" 200 -

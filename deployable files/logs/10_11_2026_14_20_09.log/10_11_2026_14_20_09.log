@@ -1,0 +1,22 @@
+[2026-10-11 14:20:18,661] 2588 dash.dash -INFO -Dash is running on http://127.0.0.1:8050/
+
+[2026-10-11 14:20:18,708] 97 werkzeug -INFO -[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8050
+[2026-10-11 14:20:18,708] 97 werkzeug -INFO -[33mPress CTRL+C to quit[0m
+[2026-10-11 14:20:37,602] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:20:37] "GET /inferences HTTP/1.1" 200 -
+[2026-10-11 14:20:38,317] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:20:38] "GET /_dash-layout HTTP/1.1" 200 -
+[2026-10-11 14:20:38,364] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:20:38] "GET /_favicon.ico?v=4.4.1 HTTP/1.1" 200 -
+[2026-10-11 14:20:38,384] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:20:38] "GET /_dash-dependencies HTTP/1.1" 200 -
+[2026-10-11 14:20:38,522] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:20:38] "POST /_dash-update-component?endId=6RFdOZRRwFhjPOSF8AfC5ngO~09053de80f9d5646d26dbc22e6df323ea16f50004584ef16a629362ca0bce40c HTTP/1.1" 200 -
+[2026-10-11 14:20:38,931] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:20:38] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+[2026-10-11 14:20:38,931] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:20:38] "POST /_dash-update-component?endId=6RFdOZRRwFhjPOSF8AfC5ngO~09053de80f9d5646d26dbc22e6df323ea16f50004584ef16a629362ca0bce40c HTTP/1.1" 200 -
+[2026-10-11 14:21:06,066] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:21:06] "POST /_dash-update-component?endId=6RFdOZRRwFhjPOSF8AfC5ngO~09053de80f9d5646d26dbc22e6df323ea16f50004584ef16a629362ca0bce40c HTTP/1.1" 200 -
+[2026-10-11 14:21:08,663] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:21:08] "POST /_dash-update-component?endId=6RFdOZRRwFhjPOSF8AfC5ngO~09053de80f9d5646d26dbc22e6df323ea16f50004584ef16a629362ca0bce40c HTTP/1.1" 200 -
+[2026-10-11 14:27:42,231] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:27:42] "POST /_dash-update-component?endId=6RFdOZRRwFhjPOSF8AfC5ngO~09053de80f9d5646d26dbc22e6df323ea16f50004584ef16a629362ca0bce40c HTTP/1.1" 200 -
+[2026-10-11 14:27:42,621] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:27:42] "[36mGET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1[0m" 304 -
+[2026-10-11 14:27:42,667] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:27:42] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+[2026-10-11 14:27:42,746] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:27:42] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+[2026-10-11 14:27:43,282] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:27:43] "[36mGET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1[0m" 304 -
+[2026-10-11 14:27:50,255] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:27:50] "POST /_dash-update-component?endId=6RFdOZRRwFhjPOSF8AfC5ngO~09053de80f9d5646d26dbc22e6df323ea16f50004584ef16a629362ca0bce40c HTTP/1.1" 200 -
+[2026-10-11 14:27:51,170] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:27:51] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+[2026-10-11 14:27:54,151] 97 werkzeug -INFO -127.0.0.1 - - [11/Oct/2026 14:27:54] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -

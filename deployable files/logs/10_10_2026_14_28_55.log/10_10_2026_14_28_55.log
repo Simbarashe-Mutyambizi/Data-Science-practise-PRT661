@@ -1,0 +1,15 @@
+[2026-10-10 14:28:58,081] 39 root -INFO -Loading raw data
+[2026-10-10 14:30:07,543] 44 root -INFO -Dtaaframes created
+[2026-10-10 14:30:07,606] 48 root -INFO -Dtaaframes merged into one dataset
+[2026-10-10 14:30:20,388] 682 root -INFO -Null values cleaning complete
+[2026-10-10 14:30:20,545] 1273 root -INFO -Creating sub-region and region columns
+[2026-10-10 14:30:21,576] 1281 root -INFO -Load cleaned data to artifacts
+[2026-10-10 14:30:24,263] 1284 root -INFO -Cleaning completed, moving to transformation
+[2026-10-10 14:30:24,279] 63 root -INFO -Data transformation started
+[2026-10-10 14:30:25,107] 73 root -INFO -Loaded cleaned data from artifacts\cleaned\Cleaned_data_final.csv, shape (120978, 12)
+[2026-10-10 14:31:29,881] 88 root -INFO -Train test split initiated
+[2026-10-10 14:31:32,538] 113 root -INFO -Preprocessing complete
+[2026-10-10 14:34:21,195] 128 root -INFO -Data transformation completed successfully
+[2026-10-10 14:34:53,169] 31 root -INFO -Loading train and test data for best model
+[2026-10-10 14:35:47,804] 51 root -INFO -XGBoost training complete.
+[2026-10-10 14:35:47,804] 53 root -INFO -Instantiating testing

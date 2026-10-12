@@ -1,0 +1,12 @@
+[2026-10-10 14:22:02,515] 39 root -INFO -Loading raw data
+[2026-10-10 14:23:12,505] 44 root -INFO -Dtaaframes created
+[2026-10-10 14:23:12,567] 48 root -INFO -Dtaaframes merged into one dataset
+[2026-10-10 14:23:25,194] 682 root -INFO -Null values cleaning complete
+[2026-10-10 14:23:25,366] 1273 root -INFO -Creating sub-region and region columns
+[2026-10-10 14:23:26,397] 1281 root -INFO -Load cleaned data to artifacts
+[2026-10-10 14:23:29,084] 1284 root -INFO -Cleaning completed, moving to transformation
+[2026-10-10 14:23:29,100] 63 root -INFO -Data transformation started
+[2026-10-10 14:23:29,944] 73 root -INFO -Loaded cleaned data from artifacts\cleaned\Cleaned_data_final.csv, shape (120978, 12)
+[2026-10-10 14:24:32,451] 88 root -INFO -Train test split initiated
+[2026-10-10 14:24:35,076] 113 root -INFO -Preprocessing complete
+[2026-10-10 14:27:25,694] 128 root -INFO -Data transformation completed successfully
