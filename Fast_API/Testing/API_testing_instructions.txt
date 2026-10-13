@@ -1,7 +1,13 @@
+Open anaconda prompt and cd into the directory where the api folder is for example
 cd C:\Personal\Masters\Masters_work\Study\Y2_S1\PRT661\Project\Data-Science-practise-PRT661\Fast_API\api
+Then run this command to start the API
 python -m uvicorn main:app --reload
+Then we can use the following URLS to undergo the endpoints testsa
 http://127.0.0.1:8000/ 
 http://127.0.0.1:8000/docs
+
+
+
 
 Test Data to enter into the FastAPI
 
