@@ -1,3 +1,4 @@
+README.md
 setup.py
 src/__init__.py
 src/exception.py
@@ -10,6 +11,7 @@ src/UNKNOWN.egg-info/requires.txt
 src/UNKNOWN.egg-info/top_level.txt
 src/components/__init__.py
 src/components/api_server.py
+src/components/app.py
 src/components/data_ingestion.py
 src/components/data_transformation.py
 src/components/model_trainer.py

@@ -12,4 +12,8 @@ fastapi
 uvicorn
 dash
 dash-bootstrap-components
+pillow
+openpyxl
+request
 chardet
+gunicorn

@@ -8,14 +8,13 @@ scikit-learn
 joblib
 xgboost
 dill
-fastapi 
+fastapi
 uvicorn
-dash 
+dash
 dash-bootstrap-components
-json
 pillow
 openpyxl
-request
+requests
 chardet
 gunicorn
 -e .

@@ -17,7 +17,11 @@ Requires-Dist: fastapi
 Requires-Dist: uvicorn
 Requires-Dist: dash
 Requires-Dist: dash-bootstrap-components
+Requires-Dist: pillow
+Requires-Dist: openpyxl
+Requires-Dist: request
 Requires-Dist: chardet
+Requires-Dist: gunicorn
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

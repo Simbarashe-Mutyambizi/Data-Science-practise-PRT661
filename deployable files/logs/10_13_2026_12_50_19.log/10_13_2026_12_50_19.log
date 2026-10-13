@@ -1,0 +1,53 @@
+[2026-10-13 12:50:20,889] 1848 matplotlib.font_manager -INFO -generated new fontManager
+[2026-10-13 12:50:22,107] 45 root -INFO -Loading raw data
+[2026-10-13 12:50:27,632] 50 root -INFO -Dataframes created
+[2026-10-13 12:50:27,639] 55 root -INFO -Dtaaframes merged into one dataset
+[2026-10-13 12:50:28,809] 689 root -INFO -Null values cleaning complete
+[2026-10-13 12:50:28,828] 1280 root -INFO -Creating sub-region and region columns
+[2026-10-13 12:50:28,872] 1288 root -INFO -Load cleaned data to artifacts
+[2026-10-13 12:50:28,921] 1291 root -INFO -Cleaning completed, moving to transformation
+[2026-10-13 12:50:28,927] 66 root -INFO -Data transformation started
+[2026-10-13 12:50:28,965] 76 root -INFO -Loaded cleaned data from artifacts\cleaned\Cleaned_data_final.csv, shape (16184, 12)
+[2026-10-13 12:50:29,482] 91 root -INFO -Train test split initiated
+[2026-10-13 12:50:29,545] 116 root -INFO -Preprocessing complete
+[2026-10-13 12:50:29,580] 132 root -INFO -Data transformation completed successfully
+[2026-10-13 12:50:29,693] 36 root -INFO -Loading train and test data for best model
+[2026-10-13 12:50:30,138] 56 root -INFO -XGBoost training complete.
+[2026-10-13 12:50:30,138] 58 root -INFO -Instantiating testing
+[2026-10-13 12:50:30,703] 2588 dash.dash -INFO -Dash is running on http://127.0.0.1:8050/
+
+[2026-10-13 12:50:30,738] 97 werkzeug -INFO -WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8050
+[2026-10-13 12:50:30,738] 97 werkzeug -INFO -Press CTRL+C to quit
+[2026-10-13 12:51:31,045] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET / HTTP/1.1" 200 -
+[2026-10-13 12:51:31,081] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/deps/polyfill@7.v4_4_1m1791861534.12.1.min.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,084] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/deps/react@18.v4_4_1m1791861534.3.1.min.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,085] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/deps/react-dom@18.v4_4_1m1791861534.3.1.min.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,087] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/deps/prop-types@15.v4_4_1m1791861534.8.1.min.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,092] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v2_0_4m1791861535.min.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,094] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v4_4_1m1791861534.min.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,096] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/dcc/dash_core_components.v4_4_1m1791861534.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,097] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v4_4_1m1791861534.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,100] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/html/dash_html_components.v4_4_1m1791861534.min.js HTTP/1.1" 200 -
+[2026-10-13 12:51:31,102] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:31] "GET /_dash-component-suites/dash/dash_table/bundle.v7_4_1m1791861534.js HTTP/1.1" 200 -
+[2026-10-13 12:51:32,147] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "GET /_dash-layout HTTP/1.1" 200 -
+[2026-10-13 12:51:32,150] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "GET /_dash-dependencies HTTP/1.1" 200 -
+[2026-10-13 12:51:32,170] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:51:32,183] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+[2026-10-13 12:51:32,190] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 200 -
+[2026-10-13 12:51:32,192] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+[2026-10-13 12:51:32,198] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+[2026-10-13 12:51:32,275] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 200 -
+[2026-10-13 12:51:32,648] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:32] "GET /_favicon.ico?v=4.4.1 HTTP/1.1" 200 -
+[2026-10-13 12:51:33,551] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:33] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:51:33,566] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:33] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 200 -
+[2026-10-13 12:51:33,567] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:51:33] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 200 -
+[2026-10-13 12:57:08,955] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:57:08] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:57:21,287] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:57:21] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:57:21,338] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:57:21] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:57:39,885] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:57:39] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:57:41,587] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:57:41] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:58:19,989] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:58:19] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:58:23,898] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:58:23] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:58:32,559] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:58:32] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
+[2026-10-13 12:58:39,228] 97 werkzeug -INFO -127.0.0.1 - - [13/Oct/2026 12:58:39] "POST /_dash-update-component?endId=iKzKBlnw09NLAQ5RMeFYjY4h~ea62d5afc66034227387439c1c80ee082c3ee97c2383bdb598a86ba1d74e1ced HTTP/1.1" 200 -
