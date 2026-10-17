@@ -1,0 +1,9 @@
+========== API TEST SUMMARY ==========
+Total tests:       10000
+Successful tests:  10000
+Failed tests:      0
+Success rate:      100.00%
+Total time:        291.43 seconds
+Average per test:  0.029 seconds
+Results saved to:  synthetic_api_test_results.csv
+======================================
