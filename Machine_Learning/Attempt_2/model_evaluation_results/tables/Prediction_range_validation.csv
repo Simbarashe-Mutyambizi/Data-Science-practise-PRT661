@@ -1,0 +1,5 @@
+Model,Negative predictions,Above 100%,Within 0–100%
+Linear Regression,530,0,2594
+Decision Tree,0,0,3124
+Random Forest,0,0,3124
+XGBoost,123,0,3001

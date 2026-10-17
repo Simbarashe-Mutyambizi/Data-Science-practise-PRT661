@@ -15,7 +15,6 @@ from xgboost import XGBRegressor
 
 X_train = sparse.load_npz("X_train_processed.npz")
 X_test = sparse.load_npz("X_test_processed.npz")
-
 y_train = pd.read_csv("y_train.csv").squeeze()
 y_test = pd.read_csv("y_test.csv").squeeze()
 
