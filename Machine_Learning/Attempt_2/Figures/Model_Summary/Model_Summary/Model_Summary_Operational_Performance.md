@@ -13,7 +13,8 @@ Four regression models were compared on a held-out test set of 3,124 observation
 ![MD Figure 3. Test R² by model.](images/fig03_r2.png)
 *MD Figure 3. Test R² by model.*
 
-![ MD Figure 4. XGBoost: actual vs predicted prevalence (%).](images/fig04_xgb_actual_vs_predicted.png)
+![MD Figure 4. XGBoost: actual vs predicted prevalence (%).](images/fig04_xgb_actual_vs_predicted.png)
+
 *MD Figure 4. XGBoost: actual vs predicted prevalence (%).*
 
 ![MD Figure 5. XGBoost residuals vs predicted prevalence.](images/fig05_xgb_residuals.png)
