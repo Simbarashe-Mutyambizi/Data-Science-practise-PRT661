@@ -50,15 +50,18 @@ On the same test set the final XGBoost model scored MAE 1.834, RMSE 2.841 and R�
 Part of the operation performance testing was in regards to identifying how our system would behave if an artifact file were not exist in the original folder. Hence, we tested this out on our FASTAPI (apiserver.py) by removing the pre-processor pickle file from the artifacts folder. The results were positive as the API didn’t instantiate and returned a detailed error that the specific file (lthc_preprocessor.pkl) was missing. This error was returned due to our CustomExeption catcher function and allows us to know the specific error and solve it immediately instead of trial and error. 
 
 <img width="1908" height="551" alt="image" src="https://github.com/user-attachments/assets/9c4ec037-2d66-4369-8847-86f19cc2dcbb" />
+
 *Figure 12. Missing artifact error test result.*
 
 ## Sleeping API test on Dashboard
 Our next operation test involved running the dashboard inference page whilst the API was asleep for our cloud version. The inference test returned an error  (502 error: Bad gateway) below due to the API cloud instance being asleep. This is a limitation based on the subscription type because our account is a free instance, hence after time of inactivity, the instance slows down and goes into sleep until it’s awoke again.  This test was beneficial as it informs us that the user output won’t be imaginery if the API is asleep and is a temporary limitation as it can be solved by upgrading to a new subscription tha has our two cloud service (API and Dashboard) running continously. 
 <img width="858" height="160" alt="image" src="https://github.com/user-attachments/assets/d01fd29c-29fe-4bfa-a31a-c6ba07c76392" />
+
 *Figure 13. Sleeping API test on Dashboard.*
 
 ## Concurrency test
 we ran a concurrency test on our cloud dashboard and api, on two different devices to determine if the dashboard can handle requests from multiple devices and the result figure can be found in the model_summary.md file, as both inference results were returned succesfully with any delay. Test was conducted on two different demographies
 Laptop result: <img width="1913" height="1045" alt="image" src="https://github.com/user-attachments/assets/a1012e25-4dbf-4d97-982c-1b574811286f" />
 Phone result: <img width="358" height="795" alt="image" src="https://github.com/user-attachments/assets/3437fe5a-fbae-4fd7-93bd-62b81500e3d1" />
+
 *Figure 14. Concurrency test.*
