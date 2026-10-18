@@ -61,7 +61,11 @@ Our next operation test involved running the dashboard inference page whilst the
 
 ## Concurrency test
 we ran a concurrency test on our cloud dashboard and api, on two different devices to determine if the dashboard can handle requests from multiple devices and the result figure can be found in the model_summary.md file, as both inference results were returned succesfully with any delay. Test was conducted on two different demographies
-Laptop result: <img width="1913" height="1045" alt="image" src="https://github.com/user-attachments/assets/a1012e25-4dbf-4d97-982c-1b574811286f" />
-Phone result: <img width="358" height="795" alt="image" src="https://github.com/user-attachments/assets/3437fe5a-fbae-4fd7-93bd-62b81500e3d1" />
+Laptop result:
+
+<img width="1913" height="1045" alt="image" src="https://github.com/user-attachments/assets/a1012e25-4dbf-4d97-982c-1b574811286f" />
+
+Phone result: 
+<img width="358" height="795" alt="image" src="https://github.com/user-attachments/assets/3437fe5a-fbae-4fd7-93bd-62b81500e3d1" />
 
 *Figure 14. Concurrency test.*
