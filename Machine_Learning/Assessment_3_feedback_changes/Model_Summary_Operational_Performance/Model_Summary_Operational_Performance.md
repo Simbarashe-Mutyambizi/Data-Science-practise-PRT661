@@ -1,6 +1,6 @@
 # Model Evaluation, Feature Importance and Error Analysis
 
-All figures and results in the first four sections are produced by four scripts, run in order with `random_state = 42`: `Data_Cleaning.py`, `Model_training_evaluation.py`, `Error_plotting.py` and `Demographic_error.py`. The data are the 16,184 published cells from AIHW Tables S10 (country of birth) and S13 (language used at home). The two tables are kept as separate sources with no country–language imputation, variables a table did not collect are labelled "Not collected", and suppressed ("n.p") cells are removed rather than set to zero. All errors are in percentage points (pp) of prevalence.
+MD Figures 1–7 and the results in the first four sections are produced by four scripts, run in order with `random_state = 42`: `Data_Cleaning.py`, `Model_training_evaluation.py`, `Error_plotting.py` and `Demographic_error.py`. The data are the 16,184 published cells from AIHW Tables S10 (country of birth) and S13 (language used at home). The two tables are kept as separate sources with no country–language imputation, variables a table did not collect are labelled "Not collected", and suppressed ("n.p") cells are removed rather than set to zero. All errors are in percentage points (pp) of prevalence.
 
 ## Machine Learning Evaluation
 
@@ -80,13 +80,18 @@ Relative error is highest for dementia and mental health conditions, the 00–44
 ![MD Figure 7. Relative MAE and bias by subgroup, out-of-fold predictions from grouped 5-fold CV (95% cluster-bootstrap confidence intervals).](images/fig07_demographic_error.png)
 *MD Figure 7. Relative MAE and bias by subgroup, out-of-fold predictions from grouped 5-fold CV (95% cluster-bootstrap confidence intervals).*
 
+These results are shown to dashboard users. A reliability note under the Analyse Population button on the Inferences & Insights page lists the groups with the largest relative error, so users know which predictions to treat as approximate (MD Figure 8).
+
+![MD Figure 8. Reliability note on the dashboard's Inferences & Insights page, listing the groups with less precise predictions.](images/fig08_inference_reliability_note.png)
+*MD Figure 8. Reliability note on the dashboard's Inferences & Insights page, listing the groups with less precise predictions.*
+
 ## Missing artifact operational test
 
 Part of the operational performance testing was to identify how our system would behave if an artifact file did not exist in the original folder. We tested this on our FastAPI (apiserver.py) by removing the pre-processor pickle file from the artifacts folder. The results were positive: the API did not instantiate and returned a detailed error stating that the specific file (lthc_preprocessor.pkl) was missing. This error was returned by our CustomException catcher function, which lets us identify the specific error and solve it immediately instead of by trial and error.
 
 <img width="1908" height="551" alt="image" src="https://github.com/user-attachments/assets/9c4ec037-2d66-4369-8847-86f19cc2dcbb" />
 
-*MD Figure 8. Missing artifact error test result.*
+*MD Figure 9. Missing artifact error test result.*
 
 ## Sleeping API test on Dashboard
 
@@ -94,7 +99,7 @@ Our next operational test involved running the dashboard inference page while th
 
 <img width="858" height="160" alt="image" src="https://github.com/user-attachments/assets/d01fd29c-29fe-4bfa-a31a-c6ba07c76392" />
 
-*MD Figure 9. Sleeping API test on Dashboard.*
+*MD Figure 10. Sleeping API test on Dashboard.*
 
 ## Concurrency test
 
@@ -104,10 +109,10 @@ Laptop result:
 
 <img width="1913" height="1045" alt="image" src="https://github.com/user-attachments/assets/a1012e25-4dbf-4d97-982c-1b574811286f" />
 
-*MD Figure 10. Concurrency test: laptop result.*
+*MD Figure 11. Concurrency test: laptop result.*
 
 Phone result:
 
 <img width="358" height="795" alt="image" src="https://github.com/user-attachments/assets/3437fe5a-fbae-4fd7-93bd-62b81500e3d1" />
 
-*MD Figure 11. Concurrency test: phone result.*
+*MD Figure 12. Concurrency test: phone result.*
