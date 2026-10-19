@@ -82,7 +82,7 @@ Relative error is highest for dementia and mental health conditions, the 00–44
 
 These results are shown to dashboard users. A reliability note under the Analyse Population button on the Inferences & Insights page lists the groups with the largest relative error, so users know which predictions to treat as approximate (MD Figure 8).
 
-![MD Figure 8. Reliability note on the dashboard's Inferences & Insights page, listing the groups with less precise predictions.](images/fig08_inference_reliability_note.png)
+![MD Figure 8. Reliability note on the dashboard's Inferences & Insights page, listing the groups with less precise predictions.](images/fig8.png)
 *MD Figure 8. Reliability note on the dashboard's Inferences & Insights page, listing the groups with less precise predictions.*
 
 ## Missing artifact operational test
