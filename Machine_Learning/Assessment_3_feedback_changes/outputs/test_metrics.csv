@@ -1,0 +1,4 @@
+Model,Set,MAE (pp),RMSE (pp),R2,Negative predictions
+XGBoost (gamma),Train,1.7103,2.8311,0.9664,0
+XGBoost (gamma),Test,2.1198,3.5381,0.9438,0
+Baseline (mean by LTHC x age x sex),Test,3.0565,4.7831,0.8973,0

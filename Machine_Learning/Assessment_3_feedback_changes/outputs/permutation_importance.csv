@@ -1,0 +1,10 @@
+Feature,MAE increase (pp) mean,MAE increase (pp) SD
+Long-term health condition (LTHC),9.8148,0.1502
+Age group,6.3518,0.0995
+Years spent in Australia,0.5406,0.0196
+Language used at home,0.4625,0.0306
+Region_class,0.3687,0.0204
+Proficiency in spoken English,0.2408,0.0118
+Country of birth of person,0.1659,0.0217
+Sex,0.1312,0.0111
+Subregion_class,0.0696,0.0099

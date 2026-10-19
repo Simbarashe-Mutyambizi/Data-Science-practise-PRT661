@@ -1,0 +1,21 @@
+source_table,Country of birth of person,Years spent in Australia,Language used at home,Proficiency in spoken English,Region_class,Subregion_class,Age group,Sex,Long-term health condition (LTHC),Actual,Predicted,Error,Rel_Error_pct
+S13,Not collected,Not collected,Bosnian,Not well or Not at all,Not collected,Not collected,45–64,Persons,Mental health condition,32.774,9.886,-22.888,69.836
+S13,Not collected,Not collected,Latin,Very well or well,Not collected,Not collected,00–44,Persons,One or more long-term health condition(s),34.081,12.34,-21.74,63.791
+S10,Bhutan,More than 10 years,Not collected,Not collected,Southern and Central Asia,Southern Asia,65 and over,Female,Arthritis,26.733,48.371,21.639,80.945
+S13,Not collected,Not collected,Yiddish,Very well or well,Not collected,Not collected,65 and over,Persons,One or more long-term health condition(s),71.957,92.628,20.671,28.728
+S13,Not collected,Not collected,Bosnian,Not well or Not at all,Not collected,Not collected,45–64,Persons,One or more long-term health condition(s),64.753,44.346,-20.407,31.515
+S13,Not collected,Not collected,Bosnian,Not well or Not at all,Not collected,Not collected,45–64,Female,One or more long-term health condition(s),67.624,47.69,-19.933,29.477
+S10,Bhutan,More than 10 years,Not collected,Not collected,Southern and Central Asia,Southern Asia,65 and over,Female,One or more long-term health condition(s),74.257,93.53,19.272,25.953
+S10,Bangladesh,0–10 years,Not collected,Not collected,Southern and Central Asia,Southern Asia,65 and over,Male,Diabetes,49.213,31.18,-18.032,36.642
+S13,Not collected,Not collected,Bengali,Very well or well,Not collected,Not collected,65 and over,Male,Diabetes,44.054,26.266,-17.787,40.377
+S10,Malaysia,0–10 years,Not collected,Not collected,South-East Asia,Maritime South-East Asia,65 and over,Male,One or more long-term health condition(s),53.11,35.497,-17.613,33.163
+S10,Bhutan,0–10 years,Not collected,Not collected,Southern and Central Asia,Southern Asia,65 and over,Female,Arthritis,18.994,36.186,17.191,90.508
+S13,Not collected,Not collected,Bosnian,Not well or Not at all,Not collected,Not collected,45–64,Male,One or more long-term health condition(s),61.188,44.08,-17.108,27.96
+S13,Not collected,Not collected,Irish,Very well or well,Not collected,Not collected,65 and over,Persons,Diabetes,10.759,27.608,16.848,156.591
+S10,Bangladesh,0–10 years,Not collected,Not collected,Southern and Central Asia,Southern Asia,65 and over,Male,One or more long-term health condition(s),70.472,53.869,-16.604,23.56
+S13,Not collected,Not collected,Serbian,Not well or Not at all,Not collected,Not collected,45–64,Female,Mental health condition,25.177,8.99,-16.187,64.291
+S13,Not collected,Not collected,Bengali,Very well or well,Not collected,Not collected,65 and over,Persons,Diabetes,41.618,25.56,-16.058,38.584
+S10,Malaysia,0–10 years,Not collected,Not collected,South-East Asia,Maritime South-East Asia,65 and over,Persons,One or more long-term health condition(s),50.98,35.145,-15.836,31.062
+S10,Bhutan,More than 10 years,Not collected,Not collected,Southern and Central Asia,Southern Asia,65 and over,Persons,One or more long-term health condition(s),72.549,88.306,15.757,21.719
+S10,Bhutan,More than 10 years,Not collected,Not collected,Southern and Central Asia,Southern Asia,65 and over,Female,Any other long-term health condition(s),15.842,31.267,15.425,97.371
+S10,Bhutan,0–10 years,Not collected,Not collected,Southern and Central Asia,Southern Asia,65 and over,Persons,Asthma,22.857,7.472,-15.386,67.312

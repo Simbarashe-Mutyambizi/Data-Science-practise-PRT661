@@ -1,0 +1,6 @@
+Model,MAE (pp) mean,RMSE (pp) mean,R2 mean,MAE (pp) SD,RMSE (pp) SD,R2 SD,Negative predictions (total)
+XGBoost (gamma),2.2831,3.9584,0.9343,0.0883,0.1189,0.0031,0
+Random Forest,2.5084,4.4196,0.9179,0.1524,0.1656,0.0067,0
+Decision Tree,2.9216,4.7448,0.9054,0.1938,0.2333,0.0093,0
+Baseline (mean by LTHC x age x sex),3.3719,5.489,0.8735,0.1704,0.3626,0.0124,0
+Linear Regression,6.245,8.5397,0.6939,0.2944,0.2991,0.0192,2316

@@ -1,0 +1,64 @@
+Group,Category,Collected,n,Demographic groups,Mean actual (%),MAE (pp),Bias (pp),Relative MAE (%),MAE_lo,MAE_hi,Bias_lo,Bias_hi,RelMAE_lo,RelMAE_hi,Low n
+Source table,S10 - country of birth rows,True,8770,688,11.5899,1.9216,-0.3791,16.5802,1.8035,2.0509,-0.5276,-0.2289,15.9453,17.2857,False
+Source table,S13 - language at home rows,True,7414,606,12.9738,2.4513,-0.4655,18.8945,2.2665,2.6474,-0.6863,-0.2736,17.9496,19.9375,False
+Condition (LTHC),Dementia,True,202,166,2.8188,0.9128,-0.2866,32.3839,0.6335,1.2848,-0.6793,0.004,25.9912,39.7571,False
+Condition (LTHC),Mental health condition,True,1380,900,6.5088,2.0535,-0.3634,31.5501,1.9084,2.2001,-0.574,-0.1642,29.897,33.2352,False
+Condition (LTHC),Asthma,True,1484,908,5.8464,1.5249,-0.0948,26.0826,1.4381,1.6194,-0.236,0.0297,24.6831,27.3286,False
+Condition (LTHC),Diabetes,True,1675,957,11.9617,2.9846,-0.7966,24.9512,2.7595,3.2213,-1.0975,-0.4773,23.5026,26.5165,False
+Condition (LTHC),Lung condition,True,607,463,2.0967,0.5139,-0.0602,24.5091,0.4502,0.5823,-0.1467,0.0213,22.0201,26.8037,False
+Condition (LTHC),Heart disease,True,1153,745,7.1579,1.575,-0.4409,22.0035,1.434,1.7203,-0.6136,-0.2701,20.7173,23.3339,False
+Condition (LTHC),Kidney disease,True,744,540,2.0164,0.4351,-0.0315,21.5758,0.3863,0.4887,-0.0953,0.034,19.772,23.3858,False
+Condition (LTHC),Cancer,True,929,713,3.9115,0.829,0.0219,21.1929,0.7527,0.9049,-0.0747,0.1194,19.599,22.7768,False
+Condition (LTHC),Heart disease or stroke,True,1264,796,8.0622,1.6772,-0.5044,20.8033,1.5187,1.838,-0.7001,-0.3256,19.6531,22.0093,False
+Condition (LTHC),Arthritis,True,1428,905,11.2591,2.2751,-0.8045,20.2067,2.0825,2.459,-1.0367,-0.5989,19.1195,21.4422,False
+Condition (LTHC),Stroke,True,541,421,2.17,0.4258,0.0013,19.6238,0.3686,0.4871,-0.0637,0.0728,17.5539,21.9181,False
+Condition (LTHC),Any other long-term health condition(s),True,2060,1098,10.9855,2.1467,-0.2246,19.5416,1.9858,2.3411,-0.4541,-0.0155,18.397,20.8128,False
+Condition (LTHC),One or more long-term health condition(s),True,2717,1294,34.9044,4.2338,-0.7159,12.1298,3.9986,4.4773,-1.0599,-0.3513,11.5187,12.7905,False
+Age group,00–44,True,5206,485,4.4982,1.1844,-0.2046,26.3305,1.0667,1.3334,-0.3527,-0.0573,24.5453,28.2022,False
+Age group,45–64,True,5152,447,11.6945,2.1989,-0.4668,18.8032,2.0353,2.3753,-0.6895,-0.259,17.9068,19.808,False
+Age group,65 and over,True,5826,362,19.5955,3.0093,-0.5675,15.3569,2.8541,3.1603,-0.8006,-0.318,14.6481,16.0338,False
+Sex,Female,True,3145,717,14.6437,2.3942,-0.5842,16.35,2.2264,2.5485,-0.7752,-0.394,15.4993,17.1868,False
+Sex,Male,True,3133,706,13.4671,2.2889,-0.3827,16.9963,2.1304,2.457,-0.5652,-0.2147,16.1646,17.7976,False
+Sex,Persons,True,9906,1294,11.0624,2.0519,-0.3775,18.5481,1.9539,2.159,-0.4949,-0.2582,17.9186,19.2041,False
+Region of birth,Southern and Central Asia,True,1161,60,11.0946,2.469,-0.8176,22.2543,1.9528,3.0078,-1.4654,-0.2104,19.7922,24.7091,False
+Region of birth,Sub-Saharan Africa,True,880,96,12.0959,2.0511,-0.2195,16.9566,1.786,2.375,-0.5797,0.1226,15.2866,18.8085,False
+Region of birth,North Africa and the Middle East,True,1135,79,12.8167,2.1711,-0.6084,16.9394,1.7786,2.6461,-1.1834,-0.0824,14.6527,19.535,False
+Region of birth,Oceania and Antarctica,True,774,53,12.1983,2.0172,-0.3439,16.5363,1.6943,2.3574,-0.7794,0.1081,14.697,18.7035,False
+Region of birth,Americas,True,779,92,13.0962,2.1108,-0.1135,16.1179,1.8836,2.3679,-0.5836,0.3593,14.4955,17.8972,False
+Region of birth,South-East Asia,True,1297,57,8.3991,1.323,-0.3158,15.7519,1.1203,1.5621,-0.5926,-0.0498,14.2175,17.5974,False
+Region of birth,North-East Asia,True,621,33,7.5552,1.1842,-0.0975,15.6734,0.9408,1.4637,-0.4354,0.2533,13.498,18.1692,False
+Region of birth,Southern and Eastern Europe,True,1025,130,14.296,2.14,-0.3273,14.9695,1.9094,2.3897,-0.6577,0.035,13.6337,16.3301,False
+Region of birth,North-West Europe,True,1098,88,12.4674,1.7,-0.302,13.6358,1.538,1.8948,-0.5869,-0.0081,12.5193,15.0003,False
+Region of birth,Not collected (S13 rows),False,7414,606,12.9738,2.4513,-0.4655,18.8945,2.28,2.6333,-0.6684,-0.2577,17.9637,19.8019,False
+Subregion of birth,Southern Asia,True,942,38,10.7298,2.4295,-0.8621,22.6423,1.8769,3.0462,-1.4991,-0.2338,19.3722,25.6945,False
+Subregion of birth,Central Asia,True,219,22,12.6636,2.6391,-0.6265,20.8403,1.6793,3.5527,-1.8885,0.8656,17.1897,25.5447,False
+Subregion of birth,New Zealand,True,222,6,9.1377,1.791,-0.3625,19.6001,1.3111,2.322,-1.0748,0.483,16.2751,26.0,False
+Subregion of birth,Northern America,True,286,15,11.1653,2.1621,0.0135,19.3643,1.7891,2.5988,-1.0446,1.0795,15.5926,23.7848,False
+Subregion of birth,Central America,True,76,15,14.8427,2.7249,-0.9415,18.3585,1.8791,4.0348,-2.6101,0.5549,13.8279,23.3893,False
+Subregion of birth,North Africa,True,289,24,14.6956,2.5415,-0.5491,17.2943,1.7796,3.3816,-1.769,0.5474,14.762,19.5979,False
+Subregion of birth,Southern and East Africa,True,778,74,12.121,2.062,-0.2548,17.0117,1.7685,2.3848,-0.6675,0.1408,15.0975,19.0423,False
+Subregion of birth,Middle East,True,846,55,12.1749,2.0445,-0.6287,16.7931,1.6037,2.5913,-1.3344,-0.057,14.0572,20.1686,False
+Subregion of birth,Central and West Africa,True,102,22,11.9047,1.9677,0.05,16.5285,1.4426,2.5813,-0.6392,0.8597,13.6425,21.7242,False
+Subregion of birth,Polynesia,True,438,29,13.0429,2.1488,-0.6462,16.475,1.6912,2.6749,-1.2313,-0.0965,13.9691,19.6265,False
+Subregion of birth,Eastern Europe,True,358,46,14.5059,2.3689,-0.1287,16.3305,1.9303,2.8391,-0.7929,0.5257,14.4714,18.5175,False
+Subregion of birth,Mainland South-East Asia,True,571,27,8.3494,1.3238,-0.1677,15.8551,0.9616,1.6889,-0.562,0.2074,13.6725,18.7175,False
+Subregion of birth,Chinese Asia,True,442,21,7.3652,1.1641,-0.0916,15.8049,0.8563,1.5329,-0.5928,0.3215,13.0153,19.0425,False
+Subregion of birth,Southern Europe,True,202,22,14.1303,2.2332,-0.8483,15.8042,1.6767,2.7605,-1.7467,-0.0077,12.2613,20.3474,False
+Subregion of birth,Maritime South-East Asia,True,726,30,8.4381,1.3224,-0.4324,15.6716,1.021,1.6399,-0.7835,-0.083,13.6334,18.4376,False
+Subregion of birth,Japan and the Koreas,True,179,12,8.0243,1.2338,-0.112,15.3753,0.8512,1.69,-0.6283,0.3867,12.6309,19.852,False
+Subregion of birth,Northern Europe,True,98,15,13.8323,2.0956,-0.1269,15.15,1.662,2.7018,-1.3959,0.8752,11.8802,19.0274,False
+Subregion of birth,Ireland,True,98,6,11.0257,1.6179,0.1097,14.6738,0.9606,2.31,-0.8664,1.1174,11.6732,20.4415,False
+Subregion of birth,South America,True,365,50,13.2785,1.9147,0.037,14.4193,1.6281,2.2331,-0.4789,0.5081,12.6724,16.6235,False
+Subregion of birth,Melanesia,True,110,14,14.3682,1.982,0.9254,13.7946,1.5756,2.4294,0.0753,1.896,11.1275,17.4059,False
+Subregion of birth,South Eastern Europe,True,465,62,14.2064,1.9234,-0.2538,13.5389,1.6437,2.2435,-0.6377,0.1625,11.6351,15.8407,False
+Subregion of birth,Western Europe,True,314,31,12.1666,1.6255,0.0513,13.3601,1.2831,2.0198,-0.4649,0.6325,10.9298,16.2962,False
+Subregion of birth,United Kingdom,True,588,36,12.6408,1.6876,-0.5884,13.3506,1.4634,1.949,-0.9043,-0.2745,11.7636,15.1565,False
+Subregion of birth,Caribbean,True,52,12,19.884,2.3083,-0.6578,11.609,1.7553,2.8774,-2.018,0.498,9.1029,14.1107,False
+Subregion of birth,Micronesia,True,4,4,29.9035,1.1165,-1.1165,3.7336,0.4946,1.6481,-1.6481,-0.4946,2.0117,4.6594,True
+Subregion of birth,Not collected (S13 rows),False,7414,606,12.9738,2.4513,-0.4655,18.8945,2.2819,2.6322,-0.6726,-0.2525,18.0228,19.8595,False
+Years in Australia,0–10 years,True,3273,233,9.34,1.9659,-0.3708,21.0483,1.7457,2.2047,-0.6675,-0.0935,19.7122,22.4879,False
+Years in Australia,More than 10 years,True,5497,455,12.9295,1.8953,-0.3841,14.6584,1.7654,2.0117,-0.5578,-0.2148,13.9911,15.3599,False
+Years in Australia,Not collected (S13 rows),False,7414,606,12.9738,2.4513,-0.4655,18.8945,2.2742,2.625,-0.6787,-0.2662,18.0251,19.8124,False
+English proficiency,Not well or Not at all,True,2988,234,15.1537,2.8214,-0.7038,18.6186,2.4982,3.1666,-1.0714,-0.3337,17.1795,20.2723,False
+English proficiency,Very well or well,True,4426,372,11.5022,2.2015,-0.3046,19.1399,2.0095,2.4162,-0.5286,-0.0673,17.8952,20.4153,False
+English proficiency,Not collected (S10 rows),False,8770,688,11.5899,1.9216,-0.3791,16.5802,1.7927,2.049,-0.528,-0.2312,15.8968,17.2622,False
