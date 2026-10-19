@@ -1,0 +1,2 @@
+Model,Train MAE (pp),Test MAE (pp),Train RMSE (pp),Test RMSE (pp),Train R2,Test R2,R2 Difference,Negative test predictions,Min test prediction (%),Max test prediction (%)
+XGBoost (gamma),1.7228,2.1223,2.8396,3.5406,0.9662,0.9437,0.0225,0,0.0155,98.0731

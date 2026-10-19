@@ -1,0 +1,30 @@
+[2026-10-20 01:05:34,301] 74 root -INFO -Loading raw data
+[2026-10-20 01:05:39,970] 80 root -INFO -Dataframes created: S10 63,180 rows, S13 57,798 rows
+[2026-10-20 01:05:39,994] 91 root -INFO -Dataframes merged into one dataset (no imputation)
+[2026-10-20 01:05:40,173] 98 root -INFO -Suppressed (n.p) rows dropped: 104,794
+[2026-10-20 01:05:40,187] 112 root -INFO -Null values set to "Not collected"
+[2026-10-20 01:05:40,217] 127 root -INFO -Cleaned data: 16,184 rows (S10 8,770, S13 7,414), sex counts {'Persons': 9906, 'Female': 3145, 'Male': 3133}
+[2026-10-20 01:05:40,217] 134 root -INFO -Load cleaned data to artifacts
+[2026-10-20 01:05:40,268] 138 root -INFO -Cleaning completed, moving to transformation
+[2026-10-20 01:05:40,275] 66 root -INFO -Data transformation started
+[2026-10-20 01:05:40,350] 76 root -INFO -Loaded cleaned data from artifacts\cleaned\Cleaned_data_final.csv, shape (16184, 12)
+[2026-10-20 01:05:40,811] 91 root -INFO -Train test split initiated
+[2026-10-20 01:05:40,888] 116 root -INFO -Preprocessing complete
+[2026-10-20 01:05:40,926] 132 root -INFO -Data transformation completed successfully
+[2026-10-20 01:05:41,037] 94 root -INFO -Train (13024, 375), test (3160, 375), sparse=True
+[2026-10-20 01:05:41,037] 126 root -INFO -Training XGBoost (gamma) on the full training set
+[2026-10-20 01:05:41,911] 129 root -INFO -XGBoost training complete.
+[2026-10-20 01:05:41,972] 154 root -INFO -Test metrics:
+                                         0
+Model                      XGBoost (gamma)
+Train MAE (pp)                      1.6674
+Test MAE (pp)                       1.9373
+Train RMSE (pp)                      2.755
+Test RMSE (pp)                      3.2584
+Train R2                            0.9676
+Test R2                             0.9559
+R2 Difference                       0.0117
+Negative test predictions                0
+Min test prediction (%)             0.0077
+Max test prediction (%)            88.2893
+[2026-10-20 01:05:41,981] 160 root -INFO -Model saved to artifacts\model.pkl

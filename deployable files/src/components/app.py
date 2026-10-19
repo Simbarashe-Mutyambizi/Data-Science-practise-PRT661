@@ -642,6 +642,54 @@ home_layout = dbc.Container(
     ],
 )
 
+# --- Reliability footnote (Inferences page) ---
+# Relative error = average prediction error as a % of the true prevalence,
+# from out-of-fold predictions (outputs/demographic_error_all.csv).
+RELIABILITY_NOTES = [
+    ("Dementia and mental health conditions",
+     "32% and 31%"),
+    ("People aged 00\u201344",
+     "27%, compared with 15% for people aged 65 and over"),
+    ("People born in Southern and Central Asia",
+     "22%; prevalence for this group also tends to be under-estimated by about 0.83 percentage points"),
+    ("People who have lived in Australia for 0\u201310 years",
+     "20%, compared with 15% for more than 10 years"),
+    ("People who speak English not well or not at all",
+     "20%"),
+]
+
+
+def reliability_footnote():
+    """Small note under the Analyse button listing groups with less precise predictions."""
+    return html.Div(
+        className="mt-4 p-3 rounded-3 border-start border-4 border-info bg-light small",
+        children=[
+            html.P(
+                [html.Span("\u2139\ufe0f ", className="me-1"),
+                 html.Strong("Note on prediction reliability")],
+                className="mb-1 text-dark",
+            ),
+            html.P(
+                "Predictions are typically less precise for the groups below. Figures show "
+                "the average error as a share of the true prevalence (18% across all groups).",
+                className="text-muted mb-2",
+            ),
+            html.Ul(
+                [
+                    html.Li([html.Span(group, className="fw-semibold"), f": {detail}"],
+                            className="mb-1")
+                    for group, detail in RELIABILITY_NOTES
+                ],
+                className="text-muted mb-2 ps-3",
+            ),
+            html.P(
+                "Treat results for these groups as approximate.",
+                className="text-muted fst-italic mb-0",
+            ),
+        ],
+    )
+
+
 # --- Inferences Page Layout ---
 inferences_layout = dbc.Container(
     className="px-4 pb-4",
@@ -721,6 +769,7 @@ inferences_layout = dbc.Container(
                             ),
                             className="text-center mt-4",
                         ),
+                        reliability_footnote(),
                     ]
                 ),
             ],

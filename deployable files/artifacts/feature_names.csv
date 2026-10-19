@@ -1,7 +1,6 @@
 categorical__Country of birth of person_Afghanistan
 categorical__Country of birth of person_Albania
 categorical__Country of birth of person_Algeria
-"categorical__Country of birth of person_Americas, nfd"
 categorical__Country of birth of person_Argentina
 categorical__Country of birth of person_Armenia
 categorical__Country of birth of person_Austria
@@ -23,13 +22,13 @@ categorical__Country of birth of person_Bulgaria
 categorical__Country of birth of person_Burundi
 categorical__Country of birth of person_Cambodia
 categorical__Country of birth of person_Canada
-"categorical__Country of birth of person_Caribbean, nfd"
 categorical__Country of birth of person_Chile
 categorical__Country of birth of person_China (excludes SARs and Taiwan)
 categorical__Country of birth of person_Colombia
 "categorical__Country of birth of person_Congo, Democratic Republic of"
 "categorical__Country of birth of person_Congo, Republic of"
 categorical__Country of birth of person_Cook Islands
+categorical__Country of birth of person_Costa Rica
 categorical__Country of birth of person_Croatia
 categorical__Country of birth of person_Cuba
 categorical__Country of birth of person_Cyprus
@@ -42,7 +41,6 @@ categorical__Country of birth of person_El Salvador
 categorical__Country of birth of person_England
 categorical__Country of birth of person_Eritrea
 categorical__Country of birth of person_Estonia
-categorical__Country of birth of person_Eswatini
 categorical__Country of birth of person_Ethiopia
 categorical__Country of birth of person_Fiji
 categorical__Country of birth of person_Finland
@@ -54,11 +52,8 @@ categorical__Country of birth of person_Germany
 categorical__Country of birth of person_Ghana
 categorical__Country of birth of person_Gibraltar
 categorical__Country of birth of person_Greece
-categorical__Country of birth of person_Guatemala
 categorical__Country of birth of person_Guernsey
 categorical__Country of birth of person_Guyana
-categorical__Country of birth of person_Haiti
-categorical__Country of birth of person_Holy See
 categorical__Country of birth of person_Honduras
 categorical__Country of birth of person_Hong Kong (SAR of China)
 categorical__Country of birth of person_Hungary
@@ -92,7 +87,6 @@ categorical__Country of birth of person_Malawi
 categorical__Country of birth of person_Malaysia
 categorical__Country of birth of person_Maldives
 categorical__Country of birth of person_Malta
-"categorical__Country of birth of person_Maritime South-East Asia, nfd"
 categorical__Country of birth of person_Mauritius
 categorical__Country of birth of person_Mexico
 "categorical__Country of birth of person_Middle East, nfd"
@@ -113,13 +107,12 @@ categorical__Country of birth of person_Niue
 categorical__Country of birth of person_North Macedonia
 categorical__Country of birth of person_Northern Ireland
 categorical__Country of birth of person_Norway
-"categorical__Country of birth of person_Oceania and Antarctica, nfd"
+categorical__Country of birth of person_Not collected
 categorical__Country of birth of person_Pakistan
 categorical__Country of birth of person_Papua New Guinea
 categorical__Country of birth of person_Paraguay
 categorical__Country of birth of person_Peru
 categorical__Country of birth of person_Philippines
-categorical__Country of birth of person_Pitcairn Islands
 categorical__Country of birth of person_Poland
 categorical__Country of birth of person_Portugal
 categorical__Country of birth of person_Romania
@@ -135,14 +128,15 @@ categorical__Country of birth of person_Sierra Leone
 categorical__Country of birth of person_Singapore
 categorical__Country of birth of person_Slovakia
 categorical__Country of birth of person_Slovenia
+categorical__Country of birth of person_Solomon Islands
 categorical__Country of birth of person_Somalia
 categorical__Country of birth of person_South Africa
+"categorical__Country of birth of person_South America, nfd"
 "categorical__Country of birth of person_South Eastern Europe, nfd"
 categorical__Country of birth of person_South Sudan
-"categorical__Country of birth of person_Southern Asia, nfd"
+"categorical__Country of birth of person_Southern and East Africa, nfd"
 categorical__Country of birth of person_Spain
 categorical__Country of birth of person_Sri Lanka
-"categorical__Country of birth of person_Sub-Saharan Africa, nfd"
 categorical__Country of birth of person_Sudan
 categorical__Country of birth of person_Sweden
 categorical__Country of birth of person_Switzerland
@@ -154,8 +148,8 @@ categorical__Country of birth of person_Timor-Leste
 categorical__Country of birth of person_Tokelau
 categorical__Country of birth of person_Tonga
 categorical__Country of birth of person_Trinidad and Tobago
+categorical__Country of birth of person_Tunisia
 categorical__Country of birth of person_Turkey
-categorical__Country of birth of person_Tuvalu
 categorical__Country of birth of person_Uganda
 categorical__Country of birth of person_Ukraine
 categorical__Country of birth of person_United Arab Emirates
@@ -167,35 +161,24 @@ categorical__Country of birth of person_Vanuatu
 categorical__Country of birth of person_Venezuela
 categorical__Country of birth of person_Vietnam
 categorical__Country of birth of person_Wales
+categorical__Country of birth of person_Yemen
 categorical__Country of birth of person_Zambia
 categorical__Country of birth of person_Zimbabwe
 categorical__Years spent in Australia_0–10 years
 categorical__Years spent in Australia_More than 10 years
-categorical__Years spent in Australia_Not specified
-categorical__Age group_00–44
-categorical__Age group_45–64
-categorical__Age group_65 and over
-categorical__Sex_Female
-categorical__Sex_Male
-categorical__Sex_Persons
+categorical__Years spent in Australia_Not collected
 categorical__Language used at home_.ATSI lang
-categorical__Language used at home_Acholi
 "categorical__Language used at home_African Languages, nec"
 "categorical__Language used at home_African Languages, nfd"
 categorical__Language used at home_Afrikaans
 categorical__Language used at home_Akan
 categorical__Language used at home_Albanian
-categorical__Language used at home_American Languages
 categorical__Language used at home_Amharic
 categorical__Language used at home_Arabic
 categorical__Language used at home_Armenian
 categorical__Language used at home_Assyrian Neo-Aramaic
 categorical__Language used at home_Auslan
-categorical__Language used at home_Azeri
-categorical__Language used at home_Balochi
-categorical__Language used at home_Bassa
 categorical__Language used at home_Belorussian
-categorical__Language used at home_Bemba
 categorical__Language used at home_Bengali
 categorical__Language used at home_Bisaya
 categorical__Language used at home_Bislama
@@ -203,8 +186,8 @@ categorical__Language used at home_Bosnian
 categorical__Language used at home_Bulgarian
 categorical__Language used at home_Burmese
 "categorical__Language used at home_Burmese and Related Languages, nec"
-"categorical__Language used at home_Burmese and Related Languages, nfd"
 categorical__Language used at home_Cantonese
+categorical__Language used at home_Catalan
 categorical__Language used at home_Cebuano
 categorical__Language used at home_Chaldean Neo-Aramaic
 categorical__Language used at home_Chin Haka
@@ -215,7 +198,6 @@ categorical__Language used at home_Croatian
 categorical__Language used at home_Czech
 categorical__Language used at home_Danish
 categorical__Language used at home_Dari
-categorical__Language used at home_Dhivehi
 categorical__Language used at home_Dinka
 categorical__Language used at home_Dutch
 categorical__Language used at home_Estonian
@@ -226,7 +208,6 @@ categorical__Language used at home_Finnish
 categorical__Language used at home_French
 "categorical__Language used at home_French Creole, nfd"
 categorical__Language used at home_Gaelic (Scotland)
-categorical__Language used at home_Georgian
 categorical__Language used at home_German
 categorical__Language used at home_Gilbertese
 categorical__Language used at home_Greek
@@ -238,14 +219,11 @@ categorical__Language used at home_Hindi
 categorical__Language used at home_Hmong
 categorical__Language used at home_Hungarian
 categorical__Language used at home_IIokano
-"categorical__Language used at home_Iberian Romance, nfd"
 categorical__Language used at home_Icelandic
 categorical__Language used at home_Igbo
 categorical__Language used at home_Ilonggo (Hiligaynon)
 "categorical__Language used at home_Indo-Aryan, nec"
-"categorical__Language used at home_Indo-Aryan, nfd"
 categorical__Language used at home_Indonesian
-"categorical__Language used at home_Iranic, nfd"
 categorical__Language used at home_Irish
 categorical__Language used at home_Italian
 categorical__Language used at home_Japanese
@@ -253,7 +231,6 @@ categorical__Language used at home_Kannada
 categorical__Language used at home_Karen
 categorical__Language used at home_Kashmiri
 categorical__Language used at home_Khmer
-categorical__Language used at home_Kikuyu
 categorical__Language used at home_Kinyarwanda (Rwanda)
 categorical__Language used at home_Kirundi (Rundi)
 categorical__Language used at home_Konkani
@@ -261,9 +238,7 @@ categorical__Language used at home_Korean
 categorical__Language used at home_Krio
 categorical__Language used at home_Kurdish
 categorical__Language used at home_Lao
-categorical__Language used at home_Latin
 categorical__Language used at home_Latvian
-categorical__Language used at home_Lingala
 categorical__Language used at home_Lithuanian
 categorical__Language used at home_Luganda
 categorical__Language used at home_Macedonian
@@ -276,16 +251,13 @@ categorical__Language used at home_Maori (New Zealand)
 categorical__Language used at home_Marathi
 categorical__Language used at home_Mauritian Creole
 categorical__Language used at home_Min Nan
-categorical__Language used at home_Moro (Nuba Moro)
 categorical__Language used at home_Motu (HiriMotu)
-categorical__Language used at home_Nauruan
 categorical__Language used at home_Nepali
 categorical__Language used at home_Niue
 "categorical__Language used at home_Non-verbal, so described"
 categorical__Language used at home_Norf'k-Pitcairn
 categorical__Language used at home_Norwegian
-categorical__Language used at home_Not specified
-categorical__Language used at home_Nyanja (Chichewa)
+categorical__Language used at home_Not collected
 categorical__Language used at home_Oriya
 categorical__Language used at home_Oromo
 categorical__Language used at home_Pampangan
@@ -303,7 +275,6 @@ categorical__Language used at home_Russian
 categorical__Language used at home_Samoan
 categorical__Language used at home_Serbian
 "categorical__Language used at home_Serbo-Croatian/Yugoslavian, so described"
-categorical__Language used at home_Seychelles Creole
 categorical__Language used at home_Shona
 "categorical__Language used at home_Sign Languages, nfd"
 categorical__Language used at home_Sindhi
@@ -311,7 +282,6 @@ categorical__Language used at home_Sinhalese
 categorical__Language used at home_Slovak
 categorical__Language used at home_Slovene
 categorical__Language used at home_Somali
-"categorical__Language used at home_South Slavic, nfd"
 "categorical__Language used at home_Southeast Asian Austronesian Languages, nec"
 "categorical__Language used at home_Southeast Asian Austronesian Languages, nfd"
 "categorical__Language used at home_Southern Asian Languages, nfd"
@@ -325,20 +295,16 @@ categorical__Language used at home_Telugu
 categorical__Language used at home_Tetum
 categorical__Language used at home_Thai
 categorical__Language used at home_Tibetan
-categorical__Language used at home_Tigre
 categorical__Language used at home_Tigrinya
 categorical__Language used at home_Timorese
 categorical__Language used at home_Tok Pisin (Neomelanesian)
 categorical__Language used at home_Tokelauan
 categorical__Language used at home_Tongan
-categorical__Language used at home_Tswana
 categorical__Language used at home_Tulu
 categorical__Language used at home_Turkish
-categorical__Language used at home_Tuvaluan
 categorical__Language used at home_Ukrainian
 categorical__Language used at home_Urdu
 categorical__Language used at home_Uygur
-categorical__Language used at home_Uzbek
 categorical__Language used at home_Vietnamese
 categorical__Language used at home_Welsh
 categorical__Language used at home_Wu
@@ -346,19 +312,19 @@ categorical__Language used at home_Yiddish
 categorical__Language used at home_Yoruba
 categorical__Language used at home_Zomi
 categorical__Language used at home_Zulu
-categorical__Proficiency in spoken English_Not specified
+categorical__Proficiency in spoken English_Not collected
 categorical__Proficiency in spoken English_Not well or Not at all
 categorical__Proficiency in spoken English_Very well or well
 categorical__Region_class_Americas
 categorical__Region_class_North Africa and the Middle East
 categorical__Region_class_North-East Asia
 categorical__Region_class_North-West Europe
+categorical__Region_class_Not collected
 categorical__Region_class_Oceania and Antarctica
 categorical__Region_class_South-East Asia
 categorical__Region_class_Southern and Central Asia
 categorical__Region_class_Southern and Eastern Europe
 categorical__Region_class_Sub-Saharan Africa
-categorical__Subregion_class_Americas (nfd)
 categorical__Subregion_class_Caribbean
 categorical__Subregion_class_Central America
 categorical__Subregion_class_Central Asia
@@ -376,16 +342,21 @@ categorical__Subregion_class_New Zealand
 categorical__Subregion_class_North Africa
 categorical__Subregion_class_Northern America
 categorical__Subregion_class_Northern Europe
-categorical__Subregion_class_Oceania (nfd)
+categorical__Subregion_class_Not collected
 categorical__Subregion_class_Polynesia
 categorical__Subregion_class_South America
 categorical__Subregion_class_South Eastern Europe
 categorical__Subregion_class_Southern Asia
 categorical__Subregion_class_Southern Europe
 categorical__Subregion_class_Southern and East Africa
-categorical__Subregion_class_Sub-Saharan Africa (nfd)
 categorical__Subregion_class_United Kingdom
 categorical__Subregion_class_Western Europe
+categorical__Age group_00–44
+categorical__Age group_45–64
+categorical__Age group_65 and over
+categorical__Sex_Female
+categorical__Sex_Male
+categorical__Sex_Persons
 categorical__Long-term health condition (LTHC)_Any other long-term health condition(s)
 categorical__Long-term health condition (LTHC)_Arthritis
 categorical__Long-term health condition (LTHC)_Asthma

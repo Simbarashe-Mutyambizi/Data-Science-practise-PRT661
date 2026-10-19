@@ -1,0 +1,62 @@
+[2026-10-20 01:29:19,888] 74 root -INFO -Loading raw data
+[2026-10-20 01:29:25,403] 80 root -INFO -Dataframes created: S10 63,180 rows, S13 57,798 rows
+[2026-10-20 01:29:25,425] 91 root -INFO -Dataframes merged into one dataset (no imputation)
+[2026-10-20 01:29:25,579] 98 root -INFO -Suppressed (n.p) rows dropped: 104,794
+[2026-10-20 01:29:25,592] 112 root -INFO -Null values set to "Not collected"
+[2026-10-20 01:29:25,618] 127 root -INFO -Cleaned data: 16,184 rows (S10 8,770, S13 7,414), sex counts {'Persons': 9906, 'Female': 3145, 'Male': 3133}
+[2026-10-20 01:29:25,618] 134 root -INFO -Load cleaned data to artifacts
+[2026-10-20 01:29:25,668] 138 root -INFO -Cleaning completed, moving to transformation
+[2026-10-20 01:29:25,671] 73 root -INFO -Data transformation started
+[2026-10-20 01:29:25,712] 82 root -INFO -Loaded cleaned data from artifacts\cleaned\Cleaned_data_final.csv, shape (16184, 12)
+[2026-10-20 01:29:26,126] 102 root -INFO -Train test split initiated
+[2026-10-20 01:29:26,183] 114 root -INFO -Train 12,991 rows / 1,035 groups, test 3,193 rows / 259 groups
+[2026-10-20 01:29:26,209] 132 root -INFO -Preprocessing complete: 372 one-hot features
+[2026-10-20 01:29:26,251] 152 root -INFO -Data transformation completed successfully
+[2026-10-20 01:29:26,347] 94 root -INFO -Train (12991, 372), test (3193, 372), sparse=True
+[2026-10-20 01:29:26,347] 126 root -INFO -Training XGBoost (gamma) on the full training set
+[2026-10-20 01:29:27,264] 129 root -INFO -XGBoost training complete.
+[2026-10-20 01:29:27,313] 154 root -INFO -Test metrics:
+                                         0
+Model                      XGBoost (gamma)
+Train MAE (pp)                      1.7228
+Test MAE (pp)                       2.1223
+Train RMSE (pp)                     2.8396
+Test RMSE (pp)                      3.5406
+Train R2                            0.9662
+Test R2                             0.9437
+R2 Difference                       0.0225
+Negative test predictions                0
+Min test prediction (%)             0.0155
+Max test prediction (%)            98.0731
+[2026-10-20 01:29:27,321] 160 root -INFO -Model saved to artifacts\model.pkl
+[2026-10-20 01:29:27,900] 2588 dash.dash -INFO -Dash is running on http://127.0.0.1:8050/
+
+[2026-10-20 01:29:27,918] 97 werkzeug -INFO -WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:8050
+[2026-10-20 01:29:27,918] 97 werkzeug -INFO -Press CTRL+C to quit
+[2026-10-20 01:30:07,144] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET / HTTP/1.1" 200 -
+[2026-10-20 01:30:07,216] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/deps/polyfill@7.v4_4_1m1791861534.12.1.min.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,218] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/deps/react-dom@18.v4_4_1m1791861534.3.1.min.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,219] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/deps/react@18.v4_4_1m1791861534.3.1.min.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,221] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/deps/prop-types@15.v4_4_1m1791861534.8.1.min.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,222] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash_bootstrap_components/_components/dash_bootstrap_components.v2_0_4m1791861535.min.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,228] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v4_4_1m1791861534.min.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,235] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v4_4_1m1791861534.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,237] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/dcc/dash_core_components.v4_4_1m1791861534.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,239] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/html/dash_html_components.v4_4_1m1791861534.min.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,240] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-component-suites/dash/dash_table/bundle.v7_4_1m1791861534.js HTTP/1.1" 200 -
+[2026-10-20 01:30:07,970] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-layout HTTP/1.1" 200 -
+[2026-10-20 01:30:07,972] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "GET /_dash-dependencies HTTP/1.1" 200 -
+[2026-10-20 01:30:07,993] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:07] "POST /_dash-update-component?endId=oyS0W0PhH3y7Qw8w2HoWbT9W~b2bbdc1ff01a4ba77ace7522b2bd048c11a19b136cd445a1b8af7a716dd9e422 HTTP/1.1" 200 -
+[2026-10-20 01:30:08,010] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:08] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+[2026-10-20 01:30:08,013] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:08] "GET /_dash-component-suites/dash/dcc/async-markdown.js HTTP/1.1" 200 -
+[2026-10-20 01:30:08,015] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:08] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+[2026-10-20 01:30:08,028] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:08] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+[2026-10-20 01:30:08,135] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:08] "GET /_dash-component-suites/dash/dcc/async-highlight.js HTTP/1.1" 200 -
+[2026-10-20 01:30:09,415] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:09] "POST /_dash-update-component?endId=oyS0W0PhH3y7Qw8w2HoWbT9W~b2bbdc1ff01a4ba77ace7522b2bd048c11a19b136cd445a1b8af7a716dd9e422 HTTP/1.1" 200 -
+[2026-10-20 01:30:09,429] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:09] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 200 -
+[2026-10-20 01:30:09,432] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:09] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 200 -
+[2026-10-20 01:30:17,117] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:17] "POST /_dash-update-component?endId=oyS0W0PhH3y7Qw8w2HoWbT9W~b2bbdc1ff01a4ba77ace7522b2bd048c11a19b136cd445a1b8af7a716dd9e422 HTTP/1.1" 200 -
+[2026-10-20 01:30:17,162] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:30:17] "POST /_dash-update-component?endId=oyS0W0PhH3y7Qw8w2HoWbT9W~b2bbdc1ff01a4ba77ace7522b2bd048c11a19b136cd445a1b8af7a716dd9e422 HTTP/1.1" 200 -
+[2026-10-20 01:31:07,058] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:31:07] "POST /_dash-update-component?endId=oyS0W0PhH3y7Qw8w2HoWbT9W~b2bbdc1ff01a4ba77ace7522b2bd048c11a19b136cd445a1b8af7a716dd9e422 HTTP/1.1" 200 -
+[2026-10-20 01:31:09,442] 97 werkzeug -INFO -127.0.0.1 - - [20/Oct/2026 01:31:09] "POST /_dash-update-component?endId=oyS0W0PhH3y7Qw8w2HoWbT9W~b2bbdc1ff01a4ba77ace7522b2bd048c11a19b136cd445a1b8af7a716dd9e422 HTTP/1.1" 200 -
